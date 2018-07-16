@@ -1,15 +1,15 @@
 USE master; 
-IF EXISTS(SELECT name FROM sys.databases WHERE name = 'StationaryStore') 
+IF EXISTS(SELECT name FROM sys.databases WHERE name = 'StationeryStore') 
 	BEGIN     
-		ALTER DATABASE StationaryStore SET SINGLE_USER WITH ROLLBACK IMMEDIATE;     
-		DROP DATABASE StationaryStore; 
+		ALTER DATABASE StationeryStore SET SINGLE_USER WITH ROLLBACK IMMEDIATE;     
+		DROP DATABASE StationeryStore; 
 	END 
 GO 
 
-CREATE DATABASE StationaryStore; 
+CREATE DATABASE StationeryStore; 
 GO
 
-use StationaryStore;
+use StationeryStore;
 
 create table Categories (
 	CategoryID	int		not null	identity(1,1),
@@ -19,7 +19,7 @@ create table Categories (
 go
 
 create table Items (
-	ItemID			int		not null	identity(1,1),
+	ItemID			nvarchar(4)	not null,
 	ItemName		nvarchar(64)	not null,
 	CategoryID		int		not null,
 	UnitOfMeasure		nvarchar(20)	not null,
@@ -42,7 +42,7 @@ go
 create table SupplierItems(
 	SupplierItemID		int		not null	identity(1,1),
 	SupplierID		nvarchar(4)		not null,
-	ItemID			int		not null,
+	ItemID			nvarchar(4)		not null,
 	Rank			int,
 	Cost 			numeric(8,2),
 	primary key(SupplierItemID),
@@ -72,10 +72,10 @@ go
 
 create table OrderSupplierDetails (
 	OrderSupplierDetailsID		int		not null	identity(1,1),
-	OrderSupplierID			int		not null,
-	ItemID				int		not null,
-	Quantity 			int		not null,
-	UnitCost			numeric(8,2)	not null,
+	OrderSupplierID				int		not null,
+	ItemID						nvarchar(4)		not null,
+	Quantity 					int		not null,
+	UnitCost					numeric(8,2)	not null,
 	ActualQuanityReceived		int,
 	primary key (OrderSupplierDetailsID),
 	foreign key(OrderSupplierID) references OrderSuppliers(OrderSupplierID),
@@ -174,7 +174,7 @@ go
 create table RequisitionDetails (
 	RequisitionDetailsID		int		not null	identity(1,1),
 	RequisitionID			int		not null,
-	ItemID				int		not null,
+	ItemID				nvarchar(4)		not null,
 	Quantity 			int		not null,	
 	primary key (RequisitionDetailsID),
 	foreign key(RequisitionID) references Requisition(RequisitionID),
@@ -200,7 +200,7 @@ go
 
 create table DisbursementDetails (
 	DisbursementDetailsID		int		not null	identity(1,1),
-	ItemID			int	not null,
+	ItemID			nvarchar(4)	not null,
 	DisbursementID	int		not null,
 	Quantity  int		not null,
 	CollectedQty int not null,	
@@ -216,7 +216,7 @@ go
 
 create table StockTransaction (
 	TransactionID		int		not null	identity(1,1),
-	ItemID			int		not null,
+	ItemID			nvarchar(4)		not null,
 	Description		nvarchar(50),
 	Adjustment 		int,
 	EmployeeID		nvarchar(20),	
@@ -228,7 +228,7 @@ go
 
 create table StockVouchers (
 	DiscrepancyID		int		not null	identity(1,1),
-	ItemID			int		not null,
+	ItemID			nvarchar(4)	not null,
 	OriginalCount		int		not null,
 	ActualCount 		int		not null,
 	ItemCost		numeric(8,2)    not null,

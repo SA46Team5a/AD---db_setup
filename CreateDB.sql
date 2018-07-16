@@ -29,8 +29,8 @@ create table Items (
 go
 
 create table Suppliers (
-	SupplierID		int		not null	identity(1,1),
-	SupplierName		nvarchar(64)	not null,
+	SupplierID		nvarchar(4)		not null,
+	SupplierName	nvarchar(64)	not null,
 	ContactName		nvarchar(64)	not null,
 	PhoneNumber		nvarchar(15)	not null,
 	FaxNumber		nvarchar(15),
@@ -41,7 +41,7 @@ go
 
 create table SupplierItems(
 	SupplierItemID		int		not null	identity(1,1),
-	SupplierID		int		not null,
+	SupplierID		nvarchar(4)		not null,
 	ItemID			int		not null,
 	Rank			int,
 	Cost 			numeric(8,2),
@@ -61,7 +61,7 @@ go
 create table OrderSuppliers (
 	OrderSupplierID		int		not null	identity(1,1),
 	OrderID			int		not null,
-	SupplierID		int		not null,
+	SupplierID		nvarchar(4)		not null,
 	OrderStatus		nvarchar(20)	not null,
 	InvoiceUploadStatus	nvarchar(20),
 	primary key (OrderSupplierID),

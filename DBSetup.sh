@@ -18,5 +18,9 @@ sqlcmd -i insertAuthority.sql
 sqlcmd -i insertApprovalStatus.sql
 sqlcmd -i insertRetrievalStatus.sql
 sqlcmd -i insertRequisition.sql
+sqlcmd -i insertRequisitionDetails.sql
+sqlcmd -i insertDisbursementDuty.sql
+sqlcmd -i insertDisbursement.sql
+sqlcmd -i insertDisbursementDetails.sql
 sqlcmd -i insertStockTransaction.sql
 sqlcmd -i insertVouchers.sql

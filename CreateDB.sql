@@ -193,6 +193,15 @@ create table RequisitionDetails (
 );
 go
 
+create table DisbursementDuty (
+	DisbursementDutyID		int		not null	identity(1,1),
+	StoreClerkID			nvarchar(20)	not null,
+	isRetreived	 	bit 	not null,	
+	primary key (DisbursementDutyID),
+    foreign key(StoreClerkID) references Employees(EmployeeID)
+	
+);
+go
 
 create table Disbursement (
 	DisbursementID		int		not null	identity(1,1),
@@ -201,10 +210,12 @@ create table Disbursement (
 	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
 	CollectedBy nvarchar(20) not null, 
+	DisbursementDutyID		int not null,
 	primary key (DisbursementID),
     foreign key(EmployeeID) references Employees(EmployeeID),
 	foreign key(RequisitionID) references Requisition(RequisitionID),
 	foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID)
+	foreign key(DisbursementDutyID) references DepartmentRepresentative(DisbursementDutyID)
 );
 go
 
@@ -224,15 +235,7 @@ create table DisbursementDetails (
 );
 go
 
-create table DisbursementDuty (
-	DisbursementDutyID		int		not null	identity(1,1),
-	StoreClerkID			nvarchar(20)	not null,
-	isRetreived	 	bit 	not null,	
-	primary key (DisbursementDutyID),
-    foreign key(StoreClerkID) references Employees(EmployeeID)
-	
-);
-go
+
 
 
 create table StockTransaction (

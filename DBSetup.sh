@@ -14,6 +14,7 @@ sqlcmd -i insertOrderSupplierDetails.sql
 sqlcmd -i insertCollectionPoint.sql
 sqlcmd -i insertDepartments.sql
 sqlcmd -i insertEmployees.sql
+sqlcmd -i insertAlterDepartment.sql
 sqlcmd -i insertAuthority.sql
 sqlcmd -i insertApprovalStatus.sql
 sqlcmd -i insertRetrievalStatus.sql

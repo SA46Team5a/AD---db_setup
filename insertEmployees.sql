@@ -1,15 +1,15 @@
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E001', 'ENGL', 'Ayk Khachaturian', 
-    98888888, 'Ayk@Logicssis.com', 'Male'
+    'E001', 'STOR', 'Wang Lu', 98888888, 
+    'Wang@Logicssis.com', 'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -20,7 +20,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -30,7 +30,7 @@ VALUES
     98123467, 'Sho@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -41,7 +41,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -51,7 +51,7 @@ VALUES
     98123497, 'Low@Logicssis.com', 'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -61,7 +61,7 @@ VALUES
     'Tan@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -71,7 +71,7 @@ VALUES
     'James@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -81,7 +81,7 @@ VALUES
     'David@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -91,7 +91,7 @@ VALUES
     'Diana@Logicssis.com', 'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -101,180 +101,167 @@ VALUES
     'Esther@Logicssis.com', 'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E011', 'CIVL', 'Prof Robert', 98123466, 
+    'E011', 'STOR', 'Prof Robert', 98123466, 
     'Robert@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E012', 'CPSC', 'Varoujan Andonian', 
-    98123477, 'Varoujan@Logicssis.com', 
+    'E012', 'STOR', 'MeiTing', 98123477, 
+    'MeiTing@Logicssis.com', 'Female'
+  );
+/* INSERT QUERY */
+INSERT INTO Employees(
+  EmployeeID, DepartmentID, EmployeeName, 
+  PhoneNumber, EmailID, Sex
+) 
+VALUES 
+  (
+    'E013', 'STOR', 'Pavana', 98123455, 
+    'Pavana@Logicssis.com', 'Female'
+  );
+/* INSERT QUERY */
+INSERT INTO Employees(
+  EmployeeID, DepartmentID, EmployeeName, 
+  PhoneNumber, EmailID, Sex
+) 
+VALUES 
+  (
+    'E014', 'STOR', 'Anthony', 98123499, 
+    'Anthony@Logicssis.com', 'Male'
+  );
+/* INSERT QUERY */
+INSERT INTO Employees(
+  EmployeeID, DepartmentID, EmployeeName, 
+  PhoneNumber, EmailID, Sex
+) 
+VALUES 
+  (
+    'E015', 'STOR', 'Jack', 98123490, 'Jack@Logicssis.com', 
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E013', 'COMM', 'Aris Astvadzadourian', 
-    98123455, 'Aris@Logicssis.com', 
+    'E016', 'PHYS', 'James', 98123451, 
+    'Van@Logicssis.com', 'Male'
+  );
+/* INSERT QUERY */
+INSERT INTO Employees(
+  EmployeeID, DepartmentID, EmployeeName, 
+  PhoneNumber, EmailID, Sex
+) 
+VALUES 
+  (
+    'E017', 'CHEM', 'Joel', 98123452, 'Soukias@Logicssis.com', 
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E014', 'REGR', 'Khoren Andonian', 
-    98123499, 'Khoren@Logicssis.com', 
-    'Male'
+    'E018', 'ELEC', 'Tharini', 98121457, 
+    'Vaghenag@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E015', 'ZOOL', 'Noubar Aramyan', 
-    98123490, 'Noubar@Logicssis.com', 
-    'Male'
-  );
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  (
-    'E016', 'PHYS', 'Van Gharakhanian', 
-    98123451, 'Van@Logicssis.com', 'Male'
-  );
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  (
-    'E017', 'CHEM', 'Soukias Esmerian', 
-    98123452, 'Soukias@Logicssis.com', 
-    'Male'
-  );
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  (
-    'E018', 'ELEC', 'Vaghenag Balasian', 
-    98121457, 'Vaghenag@Logicssis.com', 
-    'Male'
-  );
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  (
-    'E019', 'ARCH', 'Haro Boyajian', 98122467, 
+    'E019', 'ARCH', 'Rohith', 98122467, 
     'Haro@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E020', 'CIVL', 'Zarmayr Ashjian', 
-    98124487, 'Zarmayr@Logicssis.com', 
+    'E020', 'COMM', 'Allen', 98124487, 
+    'Zarmayr@Logicssis.com', 'Male'
+  );
+/* INSERT QUERY */
+INSERT INTO Employees(
+  EmployeeID, DepartmentID, EmployeeName, 
+  PhoneNumber, EmailID, Sex
+) 
+VALUES 
+  (
+    'E021', 'CPSC', 'Yang', 98125497, 'Zarmayr@Logicssis.com', 
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E021', 'CPSC', 'Zarmayr Isagholian', 
-    98125497, 'Zarmayr@Logicssis.com', 
-    'Male'
+    'E022', 'ENGL', 'Shruthi', 98126458, 
+    'Taline@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E022', 'COMM', 'Taline Gharakhanian', 
-    98126458, 'Taline@Logicssis.com', 
-    'Male'
+    'E023', 'REGR', 'Esther', 98127459, 
+    'Siranoush@Logicssis.com', 'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E023', 'REGR', 'Siranoush Bozian', 
-    98127459, 'Siranoush@Logicssis.com', 
+    'E024', 'ZOOL', 'Valli', 98128452, 
+    'Lena@Logicssis.com', 'Female'
+  );
+/* INSERT QUERY */
+INSERT INTO Employees(
+  EmployeeID, DepartmentID, EmployeeName, 
+  PhoneNumber, EmailID, Sex
+) 
+VALUES 
+  (
+    'E025', 'PHYS', 'Sam', 98129454, 'Dziadzan@Logicssis.com', 
     'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E024', 'ZOOL', 'Lena Kostanian', 
-    98128452, 'Lena@Logicssis.com', 
-    'Female'
+    'E026', 'CHEM', 'Sandy', 98123956, 
+    'Khatchouhi@Logicssis.com', 'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  (
-    'E025', 'PHYS', 'Dziadzan Movsesian', 
-    98129454, 'Dziadzan@Logicssis.com', 
-    'Female'
-  );
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  (
-    'E026', 'CHEM', 'Khatchouhi Sibrian', 
-    98123956, 'Khatchouhi@Logicssis.com', 
-    'Female'
-  );
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -285,7 +272,7 @@ VALUES
     'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -296,18 +283,18 @@ VALUES
     'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E029', 'CIVL', 'Jebid Nadanian', 
+    'E029', 'PHYS', 'Jebid Nadanian', 
     98123555, 'Jebid@Logicssis.com', 
     'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -318,18 +305,18 @@ VALUES
     'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E031', 'COMM', 'Khosrovitoughd Suzmeyan', 
+    'E031', 'COMM', 'Khosrovitoughd ', 
     98123390, 'Khosrovitoughd@Logicssis.com', 
     'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -340,7 +327,7 @@ VALUES
     'Female'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -351,7 +338,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -362,7 +349,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -373,7 +360,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -384,7 +371,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -395,18 +382,18 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E038', 'CIVL', 'Yeranos Nabavian', 
+    'E038', 'PHYS', 'Yeranos Nabavian', 
     98627459, 'Yeranos@Logicssis.com', 
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -417,7 +404,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -427,7 +414,7 @@ VALUES
     'Noy@Logicssis.com', 'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -438,7 +425,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -449,7 +436,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -460,7 +447,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -471,7 +458,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -482,7 +469,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -493,18 +480,18 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
 VALUES 
   (
-    'E047', 'CIVL', 'Panos Khorozian', 
+    'E047', 'PHYS', 'Panos Khorozian', 
     98113251, 'Panos@Logicssis.com', 
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -515,7 +502,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -526,7 +513,7 @@ VALUES
     'Male'
   );
 /* INSERT QUERY */
-INSERT INTO TABLE_NAME(
+INSERT INTO Employees(
   EmployeeID, DepartmentID, EmployeeName, 
   PhoneNumber, EmailID, Sex
 ) 
@@ -536,17 +523,87 @@ VALUES
     89988778, 'Mangasar@Logicssis.com', 
     'Male'
   );
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  ('', '', '', '', '', '');
-/* INSERT QUERY */
-INSERT INTO TABLE_NAME(
-  EmployeeID, DepartmentID, EmployeeName, 
-  PhoneNumber, EmailID, Sex
-) 
-VALUES 
-  ('');
+
+
+
+
+Alter table Departments
+ADD DepartmentHeadID	nvarchar(20),
+FOREIGN KEY (DepartmentHeadID) REFERENCES Employees(EmployeeID);
+
+
+
+
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E010' 
+WHERE 
+  DepartmentID = 'ARCH';
+
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E008' 
+WHERE 
+  DepartmentID = 'CHEM';
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E004' 
+WHERE 
+  DepartmentID = 'COMM';
+
+
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E003' 
+WHERE 
+  DepartmentID = 'CPSC';
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E009' 
+WHERE 
+  DepartmentID = 'ELEC';
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E002' 
+WHERE 
+  DepartmentID = 'ENGL';
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E007' 
+WHERE 
+  DepartmentID = 'PHYS';
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E005' 
+WHERE 
+  DepartmentID = 'REGR';
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E011' 
+WHERE 
+  DepartmentID = 'STOR';
+/* UPDATE QUERY */
+UPDATE 
+  Departments 
+SET 
+  DepartmentHeadID = 'E006' 
+WHERE 
+  DepartmentID = 'ZOOL';
+

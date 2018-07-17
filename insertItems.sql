@@ -1,3 +1,4 @@
+use StationeryStore;
 /* INSERT QUERY */
 INSERT INTO Items(
   ItemID, ItemName, CategoryID, UnitOfMeasure

@@ -109,8 +109,7 @@ go
 
 create table Departments (
 	DepartmentID	nvarchar(4)		not null,
-	DepartmentName	nvarchar(20)	not null,
-	DepartmentHeadID	nvarchar(20)		not null,
+	DepartmentName	nvarchar(20)	not null,	
 	CollectionPointID	int	not null,
 	primary key (DepartmentID),
 	foreign key (CollectionPointID) references CollectionPoint(CollectionPointID)
@@ -128,10 +127,6 @@ create table Employees (
 	foreign key (DepartmentID) references Departments(DepartmentID)
 );
 go
-
-
-Alter table Departments 
-ADD FOREIGN KEY (DepartmentHeadID) REFERENCES Employees(EmployeeID);
 
 
 create table Authority (

@@ -14,3 +14,5 @@ sqlcmd -i insertOrderSupplierDetails.sql
 sqlcmd -i insertCollectionPoint.sql
 sqlcmd -i insertDepartments.sql
 sqlcmd -i insertEmployees.sql
+sqlcmd -i insertStockTransaction.sql
+sqlcmd -i insertVouchers.sql

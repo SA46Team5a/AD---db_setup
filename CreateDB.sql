@@ -92,7 +92,7 @@ create table OrderSupplierDetails (
 	ItemID						nvarchar(4)		not null,
 	Quantity 					int		not null,
 	UnitCost					numeric(8,2)	not null,
-	ActualQuanityReceived		int,
+	ActualQuantityReceived		int,
 	primary key (OrderSupplierDetailsID),
 	foreign key(OrderSupplierID) references OrderSuppliers(OrderSupplierID),
 	foreign key(ItemID) references Items(ItemID)

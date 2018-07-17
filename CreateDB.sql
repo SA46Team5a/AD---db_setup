@@ -213,6 +213,16 @@ create table DisbursementDetails (
 );
 go
 
+create table DisbursementDuty (
+	DisbursementDutyID		int		not null	identity(1,1),
+	StoreClerkID			nvarchar(20)	not null,
+	isRetreived	 	bit 	not null,	
+	primary key (DisbursementDutyID),
+    foreign key(StoreClerkID) references Employees(EmployeeID)
+	
+);
+go
+
 
 create table StockTransaction (
 	TransactionID		int		not null	identity(1,1),

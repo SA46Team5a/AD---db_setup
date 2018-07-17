@@ -1,107 +1,60 @@
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'ENGL', 'English Department', 'Prof Ezra Pound', 
-    1
-  );
+  ('ENGL', 'English ', 1);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'CPSC', 'Computer Science Department', 
-    'Dr. Sho Kian Wee', 2
-  );
+  ('CPSC', 'Computer Science ', 2);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'COMM', 'Commerce Department', 'Dr. Chia Leow Bee', 
-    3
-  );
+  ('COMM', 'Commerce ', 3);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'REGR', 'Registrar Department', 'Mrs Low Kway Boo', 
-    4
-  );
+  ('REGR', 'Registrar ', 4);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'ZOOL', 'Zoology Department', 'Prof Tan', 
-    4
-  );
+  ('ZOOL', 'Zoology ', 4);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'PHYS', 'Physics Department', 'Prof James', 
-    5
-  );
+  ('PHYS', 'Physics', 5);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'CHEM', 'Chemistry Department', 'Dr. David', 
-    6
-  );
+  ('CHEM', 'Chemistry', 6);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'ELEC', 'Electronics Department', 
-    'Mrs Diana', 1
-  );
+  ('ELEC', 'Electronics', 1);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'ARCH', 'Architecture Department', 
-    'Dr.Esther', 4
-  );
+  ('ARCH', 'Architecture', 4);
 /* INSERT QUERY */
 INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
+  DepartmentID, DepartmentName, CollectionPointID
 ) 
 VALUES 
-  (
-    'CIVL', 'Civil Department', 'Prof Robert', 
-    2
-  );
-/* INSERT QUERY */
-INSERT INTO Departments(
-  DepartmentID, DepartmentName, DepartmentHeadID, 
-  CollectionPointID
-) 
-VALUES 
-  ('');
+  ('STOR', 'Store', 2);

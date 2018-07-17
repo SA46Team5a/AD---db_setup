@@ -45,10 +45,3 @@ VALUES
   (
     6, 'University Hospital', '11:00'
   );
-/* INSERT QUERY */
-INSERT INTO CollectionPoint(
-  CollectionPointID, CollectionPointName, 
-  CollectionPointTime
-) 
-VALUES 
-  ('');

@@ -212,10 +212,10 @@ create table Disbursement (
 	CollectedBy nvarchar(20) not null, 
 	DisbursementDutyID		int not null,
 	primary key (DisbursementID),
-    foreign key(EmployeeID) references Employees(EmployeeID),
+        foreign key(EmployeeID) references Employees(EmployeeID),
 	foreign key(RequisitionID) references Requisition(RequisitionID),
-	foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID)
-	foreign key(DisbursementDutyID) references DepartmentRepresentative(DisbursementDutyID)
+	foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID),
+	foreign key(DisbursementDutyID) references DisbursementDuty(DisbursementDutyID)
 );
 go
 

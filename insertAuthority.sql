@@ -1,7 +1,5 @@
 
-Use StationeryStore
-
-;
+Use StationeryStore;
 INSERT INTO Authority(EmployeeID, StartDate, EndDate) 
 VALUES 
   (

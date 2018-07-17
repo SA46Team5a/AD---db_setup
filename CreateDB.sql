@@ -255,11 +255,11 @@ create table StockVouchers (
 go
 
 
-create view StockCountView AS
-select i.ItemID,i.ItemName,sum(t.Adjustment) AS  TotalAdjustment from
+create view StockCountItems AS
+select i.ItemID,i.ItemName,i.UnitOfMeasure,(t.Adjustment) AS  QtyInStock from
 Items i,StockTransaction t
 where i.ItemID=t.ItemID
-group by i.ItemID,i.ItemName
+group by i.ItemID,i.ItemName,i.UnitOfMeasure
 
 
 

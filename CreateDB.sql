@@ -200,7 +200,7 @@ create table Disbursement (
 	DisbursementDate	Datetime		not null,
 	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
-	CollectedBy int not null, 
+	CollectedBy nvarchar(20) not null, 
 	primary key (DisbursementID),
     foreign key(EmployeeID) references Employees(EmployeeID),
 	foreign key(RequisitionID) references Requisition(RequisitionID),

@@ -272,7 +272,43 @@ Items i,StockTransaction t
 where i.ItemID=t.ItemID
 group by i.ItemID,i.ItemName,i.UnitOfMeasure
 
+go
 
+create view OutstandingRequisitionView As
+Select d.RequisitionDetailsID,rd.Quantity-d.Quantity as OutStandingQuantity,
+rd.itemID,dp.DepartmentID,r.ApproveDate
+From (Select RequisitionDetailsID,Sum(CollectedQty)as Quantity
+      From DisbursementDetails
+	  Group by RequisitionDetailsID, ItemID)d,
+RequisitionDetails rd,Employees e,Departments dp,Requisition r
+where d.RequisitionDetailsID=rd.RequisitionDetailsID and 
+      rd.RequisitionID=r.RequisitionID and
+	  r.EmployeeID=e.EmployeeID and
+	  e.DepartmentID=dp.DepartmentID
+
+go
+
+create view ReorderDetails As
+Select rl.ItemID, rl.ReorderLevel,0.5*rl.ReorderLevel+rq.OutstandingQty as ReorderQuantity
+From (select rd.ItemID,SUM(rd.Quantity)as ReorderLevel
+      From RequisitionDetails rd,Requisition r
+	  where rd.RequisitionID=r.RequisitionID and
+	        month(r.requestedDate)=month(getDate())
+	 group by rd.ItemID)rl,
+	 (select ItemID,sum(OutStandingQuantity)as OutstandingQty
+	  From OutStandingRequisitionView 
+	  group by ItemID)rq
+GO
+
+create view RetreivalItems As
+Select ret.ItemID ,ret.QtyToRetrieve,sci.QtyInStock
+From (Select rd.ItemID,Sum(rd.Quantity) as QtyToRetrieve
+      From RequisitionDetails rd, Requisition r
+	  Where r.RequisitionID=rd.RequisitionID and
+	        r.RetreivalStatusID in (1,3)
+	 group by rd.ItemID) ret,StockCountItems sci
+where sci.ItemID=ret.ItemID
+GO
 
 
 

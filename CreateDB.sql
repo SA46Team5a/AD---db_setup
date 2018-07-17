@@ -51,6 +51,20 @@ create table SupplierItems(
 );
 go
 
+create table DeliveryStatus (
+	DeliveryStatusID		int		not null	identity(1,1),
+	DeliveryStatusName		nvarchar(30)	not null,
+	primary key (DeliveryStatusID)
+);
+go
+
+create table InvoiceUploadStatus (
+	InvoiceUploadStatusID		int		not null	identity(1,1),
+	InvoiceUploadStatusName		nvarchar(30)	not null,
+	primary key (InvoiceUploadStatusID)
+);
+go
+
 create table Orders (
 	OrderID		int		not null	identity(1,1),
 	OrderDate	datetime	not null,
@@ -62,11 +76,13 @@ create table OrderSuppliers (
 	OrderSupplierID		int		not null	identity(1,1),
 	OrderID			int		not null,
 	SupplierID		nvarchar(4)		not null,
-	OrderStatus		nvarchar(20)	not null,
-	InvoiceUploadStatus	nvarchar(20),
+	DeliveryStatusID		int	not null,
+	InvoiceUploadStatusID	int not null,
 	primary key (OrderSupplierID),
 	foreign key(OrderID) references Orders(OrderID),
-	foreign key(SupplierID) references Suppliers(SupplierID)
+	foreign key(SupplierID) references Suppliers(SupplierID),
+	foreign key(DeliveryStatusID) references DeliveryStatus(DeliveryStatusID),
+	foreign key(InvoiceUploadStatusID) references InvoiceUploadStatus(InvoiceUploadStatusID)
 );
 go
 
@@ -256,7 +272,7 @@ go
 
 
 create view StockCountItems AS
-select i.ItemID,i.ItemName,i.UnitOfMeasure,(t.Adjustment) AS  QtyInStock from
+select i.ItemID,i.ItemName,i.UnitOfMeasure,sum(t.Adjustment) AS  QtyInStock from
 Items i,StockTransaction t
 where i.ItemID=t.ItemID
 group by i.ItemID,i.ItemName,i.UnitOfMeasure

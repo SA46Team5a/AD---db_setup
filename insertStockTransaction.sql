@@ -521,9 +521,4 @@ VALUES
   (
     'T003', 'Complimentary gift', 5, 'E012'
   );
-/* INSERT QUERY */
-INSERT INTO StockTransaction(
-  ItemID, Description, Adjustment, EmployeeID
-) 
-VALUES 
-  ('');
+

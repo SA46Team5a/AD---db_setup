@@ -5,7 +5,7 @@ INSERT INTO Disbursement(
 ) 
 VALUES 
   (
-    'E026', '2018-06-15', 'Abcd', 8, 'E017', 
+    'E026', '2018-06-15', 'Abcd', 1, 1, 
     2
   );
 /* INSERT QUERY */
@@ -15,13 +15,7 @@ INSERT INTO Disbursement(
 ) 
 VALUES 
   (
-    'E025', '2018-05-12', 'Samn', 9, 'E016', 
+    'E025', '2018-05-12', 'Samn', 2, 2, 
     1
   );
-/* INSERT QUERY */
-INSERT INTO Disbursement(
-  EmployeeID, DisbursementDate, Passcode, 
-  RequisitionID, CollectedBy, DisbursementDutyID
-) 
-VALUES 
-  ('');
+

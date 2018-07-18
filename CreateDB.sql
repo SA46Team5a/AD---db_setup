@@ -116,12 +116,12 @@ create table Departments (
 go
 
 create table Employees (
-	EmployeeID	nvarchar(20)		not null,
+	EmployeeID		nvarchar(20)		not null,
 	DepartmentID	nvarchar(4)		not null,
 	EmployeeName	nvarchar(20)	not null,
-	PhoneNumber	nvarchar(20)		not null,
-	EmailID	nvarchar(40)		not null,
-	Sex	nvarchar(6)		not null,	
+	PhoneNumber		nvarchar(20)		not null,
+	EmailID			nvarchar(40)		not null,
+	Sex				nvarchar(6)		not null,	
 	primary key (EmployeeID	),
 	foreign key (DepartmentID) references Departments(DepartmentID)
 );
@@ -208,13 +208,13 @@ create table Disbursement (
 	DisbursementDate	Datetime		not null,
 	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
-	CollectedBy nvarchar(20) not null, 
+	CollectedBy int not null, 
 	DisbursementDutyID		int not null,
 	primary key (DisbursementID),
         foreign key(EmployeeID) references Employees(EmployeeID),
-	foreign key(RequisitionID) references Requisition(RequisitionID),
-	foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID),
-	foreign key(DisbursementDutyID) references DisbursementDuty(DisbursementDutyID)
+		foreign key(RequisitionID) references Requisition(RequisitionID),
+		foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID),
+		foreign key(DisbursementDutyID) references DisbursementDuty(DisbursementDutyID)
 );
 go
 
@@ -269,10 +269,20 @@ go
 
 
 create view StockCountItems AS
-select i.ItemID,i.ItemName,i.UnitOfMeasure,sum(t.Adjustment) AS  QtyInStock from
-Items i,StockTransaction t
-where i.ItemID=t.ItemID
-group by i.ItemID,i.ItemName,i.UnitOfMeasure
+select 
+	ISNULL(i.ItemID, -1) as ItemID,
+	i.ItemName,
+	i.UnitOfMeasure,
+	sum(t.Adjustment) AS QtyInStock 
+from
+	Items i,
+	StockTransaction t
+where 
+	i.ItemID=t.ItemID
+group by 
+	i.ItemID,
+	i.ItemName,
+	i.UnitOfMeasure
 
 go
 
@@ -299,7 +309,7 @@ From (select rd.ItemID,SUM(rd.Quantity)as ReorderLevel
 	 group by rd.ItemID)rl,
 	 (select ItemID,sum(OutStandingQuantity)as OutstandingQty
 	  From OutStandingRequisitionView 
-	  group by ItemID)rq
+	  group by ItemID) rq
 GO
 
 create view RetrievalItems As
@@ -311,14 +321,4 @@ From (Select rd.ItemID,Sum(rd.Quantity) as QtyToRetrieve
 	 group by rd.ItemID) ret,StockCountItems sci
 where sci.ItemID=ret.ItemID
 GO
-
-
-
-
-
-
-
-
-
-
 

@@ -4,7 +4,7 @@ Alter table Departments
 ADD DepartmentHeadID	nvarchar(20),
 FOREIGN KEY (DepartmentHeadID) REFERENCES Employees(EmployeeID);
 
-
+go
 
 
 UPDATE 

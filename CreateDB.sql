@@ -226,8 +226,8 @@ create table DisbursementDetails (
 	DisbursementID	int		not null,
 	Quantity  int		not null,
 	CollectedQty int not null,	
-	Reason nvarchar(40)	not null,
-	 RequisitionDetailsID int not null,
+	Reason nvarchar(40),
+	RequisitionDetailsID int not null,
 	primary key (DisbursementDetailsID),
     foreign key(ItemID) references Items(ItemID),
 	foreign key(DisbursementID) references Disbursement(DisbursementID),
@@ -288,16 +288,22 @@ group by
 go
 
 create view OutstandingRequisitionView As
-Select d.RequisitionDetailsID,rd.Quantity-d.Quantity as OutStandingQuantity,
+Select r.RequisitionID, d.RequisitionDetailsID,rd.Quantity-d.Quantity as OutStandingQuantity,
 rd.itemID,dp.DepartmentID,r.ApproveDate
-From (Select RequisitionDetailsID,Sum(CollectedQty)as Quantity
-      From DisbursementDetails
-	  Group by RequisitionDetailsID, ItemID)d,
-RequisitionDetails rd,Employees e,Departments dp,Requisition r
+From (
+		Select RequisitionDetailsID,Sum(CollectedQty)as Quantity
+		From DisbursementDetails
+		Group by RequisitionDetailsID, ItemID
+		) d,
+		RequisitionDetails rd,
+		Employees e,
+		Departments dp,
+		Requisition r
 where d.RequisitionDetailsID=rd.RequisitionDetailsID and 
       rd.RequisitionID=r.RequisitionID and
 	  r.EmployeeID=e.EmployeeID and
-	  e.DepartmentID=dp.DepartmentID
+	  e.DepartmentID=dp.DepartmentID and 
+	  rd.Quantity>d.Quantity
 
 go
 

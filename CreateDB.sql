@@ -101,8 +101,7 @@ go
 
 create table CollectionPoint (
 	CollectionPointID	int		not null,	
-	CollectionPointName	nvarchar(64)	not null,
-	CollectionPointTime Time(0) not null,
+	CollectionPointDetails	nvarchar(64)	not null,	
 	primary key (CollectionPointID)
 );
 go

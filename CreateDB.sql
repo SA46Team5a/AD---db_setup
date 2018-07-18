@@ -150,10 +150,10 @@ create table DepartmentRepresentative (
 go
 
 
-create table RetreivalStatus (
-	RetreivalStatusID	int		not null,
-	RetrevialStatusName	nvarchar(20)		not null,		
-	primary key (RetreivalStatusID)	
+create table RetrievalStatus (
+	RetrievalStatusID	int		not null,
+	RetrievalStatusName	nvarchar(20)		not null,		
+	primary key (RetrievalStatusID)	
 );
 go
 
@@ -171,12 +171,12 @@ create table Requisition (
 	RequestedDate	Datetime	not null,
 	AuthorityID	int		not null,
 	ApproveDate Datetime not null,
-	RetreivalStatusID int		not null,
+	RetrievalStatusID int		not null,
 	ApprovalStatusID	int		not null,		
 	primary key (RequisitionID),
 	foreign key (EmployeeID) references Employees(EmployeeID),
 	foreign key (AuthorityID) references Authority(AuthorityID),
-	foreign key (RetreivalStatusID) references RetreivalStatus(RetreivalStatusID),
+	foreign key (RetrievalStatusID) references RetrievalStatus(RetrievalStatusID),
 	foreign key (ApprovalStatusID) references ApprovalStatus(ApprovalStatusID)
 
 );
@@ -193,6 +193,15 @@ create table RequisitionDetails (
 );
 go
 
+create table DisbursementDuty (
+	DisbursementDutyID		int		not null	identity(1,1),
+	StoreClerkID			nvarchar(20)	not null,
+	isRetreived	 	bit 	not null,	
+	primary key (DisbursementDutyID),
+    foreign key(StoreClerkID) references Employees(EmployeeID)
+	
+);
+go
 
 create table Disbursement (
 	DisbursementID		int		not null	identity(1,1),
@@ -200,11 +209,13 @@ create table Disbursement (
 	DisbursementDate	Datetime		not null,
 	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
-	CollectedBy int not null, 
+	CollectedBy nvarchar(20) not null, 
+	DisbursementDutyID		int not null,
 	primary key (DisbursementID),
-    foreign key(EmployeeID) references Employees(EmployeeID),
+        foreign key(EmployeeID) references Employees(EmployeeID),
 	foreign key(RequisitionID) references Requisition(RequisitionID),
-	foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID)
+	foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID),
+	foreign key(DisbursementDutyID) references DisbursementDuty(DisbursementDutyID)
 );
 go
 
@@ -224,15 +235,7 @@ create table DisbursementDetails (
 );
 go
 
-create table DisbursementDuty (
-	DisbursementDutyID		int		not null	identity(1,1),
-	StoreClerkID			nvarchar(20)	not null,
-	isRetreived	 	bit 	not null,	
-	primary key (DisbursementDutyID),
-    foreign key(StoreClerkID) references Employees(EmployeeID)
-	
-);
-go
+
 
 
 create table StockTransaction (
@@ -310,12 +313,12 @@ From (select rd.ItemID,SUM(rd.Quantity)as ReorderLevel
 	  group by ItemID)rq
 GO
 
-create view RetreivalItems As
+create view RetrievalItems As
 Select ret.ItemID ,ret.QtyToRetrieve,sci.QtyInStock
 From (Select rd.ItemID,Sum(rd.Quantity) as QtyToRetrieve
       From RequisitionDetails rd, Requisition r
 	  Where r.RequisitionID=rd.RequisitionID and
-	        r.RetreivalStatusID in (1,3)
+	        r.RetrievalStatusID in (1,3)
 	 group by rd.ItemID) ret,StockCountItems sci
 where sci.ItemID=ret.ItemID
 GO

@@ -143,6 +143,7 @@ create table DepartmentRepresentative (
 	EmployeeID	nvarchar(20)		not null,
 	StartDate	Datetime	not null,
 	EndDate	DateTime,	
+	Passcode 	nvarchar(4) not null,	
 	primary key (DeptRepID),
 	foreign key (EmployeeID) references Employees(EmployeeID)
 );
@@ -206,7 +207,6 @@ go
 create table Disbursement (
 	DisbursementID		int		not null	identity(1,1),
 	CollectionDate	Datetime	not null,
-	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
 	CollectedBy int, 
 	DisbursementDutyID		int not null,
@@ -319,8 +319,7 @@ create view ReorderDetails As
 	SELECT
 		rl.ItemID,
 		ISNULL(rl.ReorderLevel,0) as ReorderLevel,
-		CONVERT(integer, 0.5 * ISNULL(ReorderLevel,0) + ISNULL(rq.OutstandingQuantity, 0))as ReorderQuantity,
-		rq.OutstandingQuantity
+		CAST(0.5 * ISNULL(ReorderLevel,0) + ISNULL(rq.OutstandingQuantity, 0) as INT)as ReorderQuantity
 	FROM
 	(
 		SELECT 

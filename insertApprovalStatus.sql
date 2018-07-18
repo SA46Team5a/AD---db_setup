@@ -22,4 +22,10 @@ INSERT INTO ApprovalStatus(
   ApprovalStatusID, ApprovalStatusName
 ) 
 VALUES 
-  (4, 'Deleted');
+  (4, 'Rejected');
+/* INSERT QUERY */
+INSERT INTO ApprovalStatus(
+  ApprovalStatusID, ApprovalStatusName
+) 
+VALUES 
+  (5, 'Deleted');

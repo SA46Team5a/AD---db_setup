@@ -1,16 +1,26 @@
 echo "start setup"
 sqlcmd -i CreateDB.sql
-echo "1"
+echo "categories"
 sqlcmd -i insertCategories.sql
-echo "2"
+echo "items"
 sqlcmd -i insertItems.sql
+echo "suppliers"
 sqlcmd -i insertSuppliers.sql
+echo "supplier items"
 sqlcmd -i insertSupplierItems.sql
+echo "delivery status"
 sqlcmd -i insertDeliveryStatus.sql
+echo "invoice upload status"
 sqlcmd -i insertInvoiceUploadStatus.sql
+echo "insert orders"
 sqlcmd -i insertOrders.sql
+echo "insert order suppliers"
 sqlcmd -i insertOrderSuppliers.sql
+echo "insert order supplier details"
 sqlcmd -i insertOrderSupplierDetails.sql
+echo "insert collection point"
 sqlcmd -i insertCollectionPoint.sql
+echo "insert departments"
 sqlcmd -i insertDepartments.sql
+echo "insert employees"
 sqlcmd -i insertEmployees.sql

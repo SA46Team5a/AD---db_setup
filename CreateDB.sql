@@ -117,12 +117,12 @@ create table Departments (
 go
 
 create table Employees (
-	EmployeeID	nvarchar(20)		not null,
+	EmployeeID		nvarchar(20)		not null,
 	DepartmentID	nvarchar(4)		not null,
 	EmployeeName	nvarchar(20)	not null,
-	PhoneNumber	nvarchar(20)		not null,
-	EmailID	nvarchar(40)		not null,
-	Sex	nvarchar(6)		not null,	
+	PhoneNumber		nvarchar(20)		not null,
+	EmailID			nvarchar(40)		not null,
+	Sex				nvarchar(6)		not null,	
 	primary key (EmployeeID	),
 	foreign key (DepartmentID) references Departments(DepartmentID)
 );
@@ -267,10 +267,20 @@ go
 
 
 create view StockCountItems AS
-select i.ItemID,i.ItemName,i.UnitOfMeasure,sum(t.Adjustment) AS  QtyInStock from
-Items i,StockTransaction t
-where i.ItemID=t.ItemID
-group by i.ItemID,i.ItemName,i.UnitOfMeasure
+select 
+	ISNULL(i.ItemID, -1),
+	i.ItemName,
+	i.UnitOfMeasure,
+	sum(t.Adjustment) AS QtyInStock 
+from
+	Items i,
+	StockTransaction t
+where 
+	i.ItemID=t.ItemID
+group by 
+	i.ItemID,
+	i.ItemName,
+	i.UnitOfMeasure
 
 go
 

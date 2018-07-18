@@ -132,7 +132,7 @@ create table Authority (
 	AuthorityID	int		not null  identity(1,1),
 	EmployeeID	nvarchar(20)		not null,
 	StartDate	Datetime	not null,
-	EndDate	DateTime		not null,	
+	EndDate	DateTime,	
 	primary key (AuthorityID),
 	foreign key (EmployeeID) references Employees(EmployeeID)
 );
@@ -303,7 +303,6 @@ where d.RequisitionDetailsID=rd.RequisitionDetailsID and
 	  r.EmployeeID=e.EmployeeID and
 	  e.DepartmentID=dp.DepartmentID and 
 	  rd.Quantity>d.Quantity
-
 go
 
 create view ReorderDetails As

@@ -93,5 +93,5 @@ VALUES
 /* INSERT QUERY */
 INSERT INTO Authority(EmployeeID, StartDate, EndDate) 
 VALUES 
-  ('E008', '2018-04-11', '');
+  ('E008', '2018-04-11', NULL);
 GO

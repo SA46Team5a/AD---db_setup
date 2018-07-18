@@ -84,7 +84,7 @@ INSERT INTO StockVouchers(
 ) 
 VALUES 
   (
-    'T002', 300, 310, 11.5, 'Free samples received', 
+    'T002', 300, 0, 11.5, 'Missing', 
     'E012', 'E014', '2018-03-02', '2018-03-04'
   );
 /* INSERT QUERY */

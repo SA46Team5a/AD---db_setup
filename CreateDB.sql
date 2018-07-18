@@ -142,7 +142,7 @@ create table DepartmentRepresentative (
 	DeptRepID	int		not null  identity(1,1),
 	EmployeeID	nvarchar(20)		not null,
 	StartDate	Datetime	not null,
-	EndDate	DateTime		not null,	
+	EndDate	DateTime,	
 	primary key (DeptRepID),
 	foreign key (EmployeeID) references Employees(EmployeeID)
 );
@@ -195,6 +195,7 @@ go
 create table DisbursementDuty (
 	DisbursementDutyID		int		not null	identity(1,1),
 	StoreClerkID			nvarchar(20)	not null,
+	DisbursementDate DateTime not null,
 	isRetreived	 	bit 	not null,	
 	primary key (DisbursementDutyID),
     foreign key(StoreClerkID) references Employees(EmployeeID)
@@ -204,10 +205,10 @@ go
 
 create table Disbursement (
 	DisbursementID		int		not null	identity(1,1),
-	DisbursementDate	Datetime		not null,
+	CollectionDate	Datetime	not null,
 	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
-	CollectedBy int not null, 
+	CollectedBy int, 
 	DisbursementDutyID		int not null,
 	primary key (DisbursementID),
 		foreign key(RequisitionID) references Requisition(RequisitionID),
@@ -219,21 +220,16 @@ go
 
 create table DisbursementDetails (
 	DisbursementDetailsID		int		not null	identity(1,1),
-	ItemID			nvarchar(4)	not null,
 	DisbursementID	int		not null,
 	Quantity  int		not null,
-	CollectedQty int not null,	
+	CollectedQty int,	
 	Reason nvarchar(40),
 	RequisitionDetailsID int not null,
 	primary key (DisbursementDetailsID),
-    foreign key(ItemID) references Items(ItemID),
 	foreign key(DisbursementID) references Disbursement(DisbursementID),
 	foreign key(RequisitionDetailsID) references RequisitionDetails(RequisitionDetailsID)
 );
 go
-
-
-
 
 create table StockTransaction (
 	TransactionID		int		not null	identity(1,1),
@@ -267,61 +263,131 @@ go
 
 
 create view StockCountItems AS
-select 
-	ISNULL(i.ItemID, -1) as ItemID,
-	i.ItemName,
-	i.UnitOfMeasure,
-	sum(t.Adjustment) AS QtyInStock 
-from
-	Items i,
-	StockTransaction t
-where 
-	i.ItemID=t.ItemID
-group by 
-	i.ItemID,
-	i.ItemName,
-	i.UnitOfMeasure
-
+	select 
+		ISNULL(i.ItemID, -1) as ItemID,
+		i.ItemName,
+		i.UnitOfMeasure,
+		sum(t.Adjustment) AS QtyInStock 
+	from
+		Items i,
+		StockTransaction t
+	where 
+		i.ItemID=t.ItemID
+	group by 
+		i.ItemID,
+		i.ItemName,
+		i.UnitOfMeasure
 go
 
 create view OutstandingRequisitionView As
-Select r.RequisitionID, d.RequisitionDetailsID,rd.Quantity-d.Quantity as OutStandingQuantity,
-rd.itemID,dp.DepartmentID,r.ApproveDate
-From (
-		Select RequisitionDetailsID,Sum(CollectedQty)as Quantity
-		From DisbursementDetails
-		Group by RequisitionDetailsID, ItemID
-		) d,
-		RequisitionDetails rd,
-		Employees e,
-		Departments dp,
-		Requisition r
-where d.RequisitionDetailsID=rd.RequisitionDetailsID and 
-      rd.RequisitionID=r.RequisitionID and
-	  r.EmployeeID=e.EmployeeID and
-	  e.DepartmentID=dp.DepartmentID and 
-	  rd.Quantity>d.Quantity
+SELECT 
+	rq.RequisitionID,
+	rq.ApproveDate,
+	rq.RequisitionDetailsID,
+	rq.ItemID,
+	Quantity - ISNULL(CollectedQty, 0) as OutStandingQuantity
+FROM
+	(
+		SELECT
+			r.RequisitionID,
+			r.ApproveDate,
+			rd.RequisitionDetailsID,
+			rd.ItemId,
+			rd.Quantity
+		FROM
+			Requisition r RIGHT JOIN RequisitionDetails rd ON r.RequisitionId = rd.RequisitionId
+		WHERE
+			r.RetrievalStatusID = 3 --Partially retrieved
+	) rq 
+	LEFT JOIN
+	(
+		SELECT
+			RequisitionDetailsID,
+			SUM(CollectedQty) as CollectedQty
+		FROM
+			DisbursementDetails
+		GROUP BY
+			RequisitionDetailsID
+	) d
+	ON 
+		rq.RequisitionDetailsID = d.RequisitionDetailsID
+
+
 go
 
 create view ReorderDetails As
-Select rl.ItemID, rl.ReorderLevel,0.5*rl.ReorderLevel+rq.OutstandingQty as ReorderQuantity
-From (select rd.ItemID,SUM(rd.Quantity)as ReorderLevel
-      From RequisitionDetails rd,Requisition r
-	  where rd.RequisitionID=r.RequisitionID and
-	        month(r.requestedDate)=month(getDate())
-	 group by rd.ItemID)rl,
-	 (select ItemID,sum(OutStandingQuantity)as OutstandingQty
-	  From OutStandingRequisitionView 
-	  group by ItemID) rq
+	SELECT
+		rl.ItemID,
+		ISNULL(rl.ReorderLevel,0) as ReorderLevel,
+		CONVERT(integer, 0.5 * ISNULL(ReorderLevel,0) + ISNULL(rq.OutstandingQuantity, 0))as ReorderQuantity,
+		rq.OutstandingQuantity
+	FROM
+	(
+		SELECT 
+			i.ItemID,
+			rl.ReorderLevel
+		FROM
+		(
+			SELECT
+				ItemID
+			FROM
+				Items
+		) i
+		LEFT JOIN
+		(
+			SELECT
+				rd.ItemID,
+				SUM(rd.Quantity) as ReorderLevel
+			FROM
+				RequisitionDetails rd, Requisition r
+			WHERE
+				rd.RequisitionID = r.RequisitionID AND
+				MONTH(r.RequestedDate) = MONTH(GETDATE())
+			GROUP BY
+				rd.ItemID
+		) rl
+		ON 
+		rl.ItemID = i.ItemID
+	) rl
+	LEFT JOIN
+	(
+		SELECT
+			orv.ItemID,
+			SUM(orv.OutstandingQuantity) as OutstandingQuantity
+		FROM
+			OutstandingRequisitionView orv,
+			StockCountItems sci
+		WHERE
+			orv.itemID = sci.ItemID AND
+			orv.OutStandingQuantity > sci.QtyInStock 
+		GROUP BY
+			orv.ItemID
+	) rq
+	ON
+		rq.ItemID = rl.ItemID
 GO
 
 create view RetrievalItems As
-Select ret.ItemID ,ret.QtyToRetrieve,sci.QtyInStock
-From (Select rd.ItemID,Sum(rd.Quantity) as QtyToRetrieve
-      From RequisitionDetails rd, Requisition r
-	  Where r.RequisitionID=rd.RequisitionID and
-	        r.RetrievalStatusID in (1,3)
-	 group by rd.ItemID) ret,StockCountItems sci
-where sci.ItemID=ret.ItemID
+	SELECT
+		ret.ItemID,
+		ret.QtyToRetrieve,
+		sci.QtyInStock
+	FROM
+		(
+			SELECT
+				rd.ItemID,
+				SUM(rd.Quantity) as QtyToRetrieve
+			FROM 
+				RequisitionDetails rd, 
+				Requisition r
+			WHERE 
+				r.RequisitionID = rd.RequisitionID AND
+				r.RetrievalStatusID IN (1,3)
+			GROUP BY rd.ItemID
+		) ret,
+		StockCountItems sci
+	WHERE 
+		sci.ItemID=ret.ItemID AND
+		sci.QtyInStock > ret.QtyToRetrieve
 GO
 

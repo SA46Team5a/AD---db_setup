@@ -510,8 +510,8 @@ INSERT INTO StockTransaction(
 ) 
 VALUES 
   (
-    'T002', 'Free samples received', 
-    10, 'E012'
+    'T002', 'Missing', 
+    -300, 'E012'
   );
 /* INSERT QUERY */
 INSERT INTO StockTransaction(

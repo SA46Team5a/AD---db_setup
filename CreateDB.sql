@@ -209,13 +209,13 @@ create table Disbursement (
 	DisbursementDate	Datetime		not null,
 	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
-	CollectedBy nvarchar(20) not null, 
+	CollectedBy int not null, 
 	DisbursementDutyID		int not null,
 	primary key (DisbursementID),
         foreign key(EmployeeID) references Employees(EmployeeID),
-	foreign key(RequisitionID) references Requisition(RequisitionID),
-	foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID),
-	foreign key(DisbursementDutyID) references DisbursementDuty(DisbursementDutyID)
+		foreign key(RequisitionID) references Requisition(RequisitionID),
+		foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID),
+		foreign key(DisbursementDutyID) references DisbursementDuty(DisbursementDutyID)
 );
 go
 
@@ -271,7 +271,7 @@ go
 
 create view StockCountItems AS
 select 
-	ISNULL(i.ItemID, -1),
+	ISNULL(i.ItemID, -1) as ItemID,
 	i.ItemName,
 	i.UnitOfMeasure,
 	sum(t.Adjustment) AS QtyInStock 
@@ -310,7 +310,7 @@ From (select rd.ItemID,SUM(rd.Quantity)as ReorderLevel
 	 group by rd.ItemID)rl,
 	 (select ItemID,sum(OutStandingQuantity)as OutstandingQty
 	  From OutStandingRequisitionView 
-	  group by ItemID)rq
+	  group by ItemID) rq
 GO
 
 create view RetrievalItems As
@@ -322,14 +322,4 @@ From (Select rd.ItemID,Sum(rd.Quantity) as QtyToRetrieve
 	 group by rd.ItemID) ret,StockCountItems sci
 where sci.ItemID=ret.ItemID
 GO
-
-
-
-
-
-
-
-
-
-
 

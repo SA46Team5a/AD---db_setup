@@ -24,14 +24,27 @@ echo "insert departments"
 sqlcmd -i insertDepartments.sql
 echo "insert employees"
 sqlcmd -i insertEmployees.sql
+echo "alter department"
 sqlcmd -i insertAlterDepartment.sql
+echo "authority"
 sqlcmd -i insertAuthority.sql
+echo "approval status"
 sqlcmd -i insertApprovalStatus.sql
+echo "retrieval status"
 sqlcmd -i insertRetrievalStatus.sql
+echo "requisition"
 sqlcmd -i insertRequisition.sql
+echo "requisition details"
 sqlcmd -i insertRequisitionDetails.sql
+echo "department representative"
+sqlcmd -i insertDepartmentRepresentative.sql
+echo "disbursement duty"
 sqlcmd -i insertDisbursementDuty.sql
+echo "disbursement"
 sqlcmd -i insertDisbursement.sql
+echo "disbursementDetails"
 sqlcmd -i insertDisbursementDetails.sql
+echo "stock transaction"
 sqlcmd -i insertStockTransaction.sql
-sqlcmd -i insertVouchers.sql
+echo "vouchers"
+sqlcmd -i insertStockVouchers.sql

@@ -122,7 +122,7 @@ create table Employees (
 	PhoneNumber		nvarchar(20)		not null,
 	EmailID			nvarchar(40)		not null,
 	Sex				nvarchar(6)		not null,	
-	primary key (EmployeeID	),
+	primary key (EmployeeID),
 	foreign key (DepartmentID) references Departments(DepartmentID)
 );
 go
@@ -169,7 +169,7 @@ create table Requisition (
 	EmployeeID	nvarchar(20)		not null,
 	RequestedDate	Datetime	not null,
 	AuthorityID	int,
-	ApproveDate Datetime not null,
+	ApproveDate Datetime,
 	RetrievalStatusID int,
 	ApprovalStatusID	int		not null,		
 	primary key (RequisitionID),
@@ -204,14 +204,12 @@ go
 
 create table Disbursement (
 	DisbursementID		int		not null	identity(1,1),
-	EmployeeID			nvarchar(20)	not null,
 	DisbursementDate	Datetime		not null,
 	Passcode 			nvarchar(4)	not null,	
 	RequisitionID			int		not null,
 	CollectedBy int not null, 
 	DisbursementDutyID		int not null,
 	primary key (DisbursementID),
-        foreign key(EmployeeID) references Employees(EmployeeID),
 		foreign key(RequisitionID) references Requisition(RequisitionID),
 		foreign key(CollectedBy) references DepartmentRepresentative(DeptRepID),
 		foreign key(DisbursementDutyID) references DisbursementDuty(DisbursementDutyID)

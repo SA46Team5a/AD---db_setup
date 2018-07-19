@@ -267,11 +267,12 @@ create view StockCountItems AS
 		ISNULL(i.ItemID, -1) as ItemID,
 		i.ItemName,
 		i.UnitOfMeasure,
-		sum(t.Adjustment) AS QtyInStock 
+		ISNULL(sum(t.Adjustment)) AS QtyInStock 
 	from
-		Items i,
+		Items i 
+	LEFT JOIN
 		StockTransaction t
-	where 
+	ON
 		i.ItemID=t.ItemID
 	group by 
 		i.ItemID,

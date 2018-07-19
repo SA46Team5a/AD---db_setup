@@ -319,19 +319,29 @@ go
 create view ReorderDetails As
 	SELECT
 		rl.ItemID,
+		rl.ItemName,
+		rl.QtyInStock,
 		ISNULL(rl.ReorderLevel,0) as ReorderLevel,
 		CAST(0.5 * ISNULL(ReorderLevel,0) + ISNULL(rq.OutstandingQuantity, 0) as INT)as ReorderQuantity
 	FROM
 	(
 		SELECT 
 			i.ItemID,
+			i.ItemName,
+			i.QtyInStock,
 			rl.ReorderLevel
 		FROM
 		(
 			SELECT
-				ItemID
+				i.ItemId,
+				i.ItemName,
+				sci.QtyInStock
 			FROM
-				Items
+				Items i
+			LEFT JOIN
+				StockCountItems sci
+			ON
+				i.ItemID = sci.ItemID
 		) i
 		LEFT JOIN
 		(

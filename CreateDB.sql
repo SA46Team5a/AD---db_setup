@@ -168,7 +168,7 @@ go
 create table Requisition (
 	RequisitionID	int		not null  identity(1,1),
 	EmployeeID	nvarchar(20)		not null,
-	RequestedDate	Datetime	not null,
+	RequestedDate	Datetime,
 	AuthorityID	int,
 	ApproveDate Datetime,
 	RetrievalStatusID int,

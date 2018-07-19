@@ -267,7 +267,7 @@ create view StockCountItems AS
 		ISNULL(i.ItemID, -1) as ItemID,
 		i.ItemName,
 		i.UnitOfMeasure,
-		ISNULL(sum(t.Adjustment)) AS QtyInStock 
+		ISNULL(sum(t.Adjustment), 0) AS QtyInStock 
 	from
 		Items i 
 	LEFT JOIN

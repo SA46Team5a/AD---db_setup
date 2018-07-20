@@ -101,8 +101,8 @@ VALUES
 /* INSERT QUERY */
 INSERT INTO StockVouchers(
   ItemID, OriginalCount, ActualCount, 
-  ItemCost, Reason, RaisedBy, ApprovedBy, 
-  RaisedByDate, ApprovedDate
+  ItemCost, Reason, RaisedBy,
+  RaisedByDate
 ) 
 VALUES 
   (
@@ -112,8 +112,8 @@ VALUES
 /* INSERT QUERY */
 INSERT INTO StockVouchers(
   ItemID, OriginalCount, ActualCount, 
-  ItemCost, Reason, RaisedBy, ApprovedBy, 
-  RaisedByDate, ApprovedDate
+  ItemCost, Reason, RaisedBy, 
+  RaisedByDate
 ) 
 VALUES 
   (

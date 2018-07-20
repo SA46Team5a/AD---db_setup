@@ -98,4 +98,25 @@ VALUES
     'T003', 300, 305, 10, 'Compliementary gift', 
     'E012', 'E014', '2018-02-01', '2018-02-03'
   );
-
+/* INSERT QUERY */
+INSERT INTO StockVouchers(
+  ItemID, OriginalCount, ActualCount, 
+  ItemCost, Reason, RaisedBy, ApprovedBy, 
+  RaisedByDate, ApprovedDate
+) 
+VALUES 
+  (
+    'C001',150,130,4.00,'Damaged Goods',
+     'E001','2018-07-20',null
+  );
+/* INSERT QUERY */
+INSERT INTO StockVouchers(
+  ItemID, OriginalCount, ActualCount, 
+  ItemCost, Reason, RaisedBy, ApprovedBy, 
+  RaisedByDate, ApprovedDate
+) 
+VALUES 
+  (
+    'C006',200,150,10.00,'Stolen',
+    'E012','2018-07-19',null
+  );

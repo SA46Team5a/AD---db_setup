@@ -107,7 +107,7 @@ INSERT INTO StockVouchers(
 VALUES 
   (
     'C001',150,130,4.00,'Damaged Goods',
-     'E001','2018-07-20',null
+     'E001','2018-07-20'
   );
 /* INSERT QUERY */
 INSERT INTO StockVouchers(
@@ -118,5 +118,5 @@ INSERT INTO StockVouchers(
 VALUES 
   (
     'C006',200,150,10.00,'Stolen',
-    'E012','2018-07-19',null
+    'E012','2018-07-19'
   );

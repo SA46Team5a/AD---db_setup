@@ -206,7 +206,7 @@ go
 
 create table Disbursement (
 	DisbursementID		int		not null	identity(1,1),
-	CollectionDate	Datetime	not null,
+	CollectionDate	Datetime,
 	RequisitionID			int		not null,
 	CollectedBy int, 
 	DisbursementDutyID		int not null,

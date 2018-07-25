@@ -132,7 +132,7 @@ create table Authority (
 	AuthorityID	int		not null  identity(1,1),
 	EmployeeID	nvarchar(20)		not null,
 	StartDate	Datetime	not null,
-	EndDate	DateTime,	
+	EndDate	DateTime2,	
 	primary key (AuthorityID),
 	foreign key (EmployeeID) references Employees(EmployeeID)
 );
@@ -141,8 +141,8 @@ go
 create table DepartmentRepresentative (
 	DeptRepID	int		not null  identity(1,1),
 	EmployeeID	nvarchar(20)		not null,
-	StartDate	Datetime	not null,
-	EndDate	DateTime,	
+	StartDate	Datetime2	not null,
+	EndDate	DateTime2 default null,	
 	Passcode 	nvarchar(4) not null,	
 	primary key (DeptRepID),
 	foreign key (EmployeeID) references Employees(EmployeeID)
@@ -196,7 +196,7 @@ go
 create table DisbursementDuty (
 	DisbursementDutyID		int		not null	identity(1,1),
 	StoreClerkID			nvarchar(20)	not null,
-	DisbursementDate DateTime not null,
+	DisbursementDate DateTime2 not null,
 	isRetreived	 	bit 	not null,	
 	primary key (DisbursementDutyID),
     foreign key(StoreClerkID) references Employees(EmployeeID)
@@ -206,7 +206,7 @@ go
 
 create table Disbursement (
 	DisbursementID		int		not null	identity(1,1),
-	CollectionDate	Datetime	not null,
+	CollectionDate	Datetime2,
 	RequisitionID			int		not null,
 	CollectedBy int, 
 	DisbursementDutyID		int not null,

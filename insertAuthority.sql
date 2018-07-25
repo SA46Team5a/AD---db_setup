@@ -94,4 +94,10 @@ VALUES
 INSERT INTO Authority(EmployeeID, StartDate, EndDate) 
 VALUES 
   ('E008', '2018-04-11', NULL);
+/* INSERT QUERY */
+INSERT INTO Authority(EmployeeID, StartDate, EndDate) 
+VALUES ('E010','2018-07-01',null);
+/* INSERT QUERY */
+INSERT INTO Authority(EmployeeID, StartDate, EndDate) 
+VALUES ('E004','2018-07-01',null);
 GO

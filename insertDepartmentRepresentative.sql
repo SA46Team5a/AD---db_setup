@@ -59,3 +59,17 @@ INSERT INTO DepartmentRepresentative(
 ) 
 VALUES 
   ('E024', '2015-01-01', '', 2888);
+/* INSERT QUERY */
+INSERT INTO DepartmentRepresentative(
+  EmployeeID, StartDate, EndDate, Passcode
+) 
+VALUES 
+  ('E019','2018-07-20',null,'8899');
+/* INSERT QUERY */
+INSERT INTO DepartmentRepresentative(
+  EmployeeID, StartDate, EndDate, Passcode
+) 
+VALUES 
+  ('E018','2018-07-20',null,'8990');
+
+Go

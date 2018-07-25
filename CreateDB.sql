@@ -386,18 +386,23 @@ create view RetrievalItems As
 		(
 			SELECT
 				rd.ItemID,
-				SUM(rd.Quantity) as QtyToRetrieve
+				SUM(rd.Quantity) - sum(ISNULL(d.CollectedQty, 0)) as QtyToRetrieve
 			FROM 
-				RequisitionDetails rd, 
-				Requisition r
+				Requisition r,
+				RequisitionDetails rd
+				LEFT JOIN
+				DisbursementDetails d
+				ON rd.RequisitionDetailsID = d.RequisitionDetailsID
 			WHERE 
-				r.RequisitionID = rd.RequisitionID AND
-				r.RetrievalStatusID IN (1,3)
+				d.RequisitionDetailsID = rd.RequisitionDetailsID AND
+				r.RequisitionID = rd.RequisitionID 
+				AND r.RetrievalStatusID IN (1,3)
 			GROUP BY rd.ItemID
-		) ret,
+		) ret
+		LEFT JOIN
 		StockCountItems sci
-	WHERE 
-		sci.ItemID=ret.ItemID AND
+		ON
+		sci.ItemID=ret.ItemID 
+	WHERE
 		sci.QtyInStock > ret.QtyToRetrieve
 GO
-

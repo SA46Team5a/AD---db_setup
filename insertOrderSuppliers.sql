@@ -19,21 +19,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (2, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (2, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (3, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -61,20 +47,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (4, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (5, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (5, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -83,13 +55,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (5, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (6, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -159,13 +124,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (9, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (9, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -174,13 +132,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (10, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (10, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -208,13 +159,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (11, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (12, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -222,21 +166,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (12, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (12, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (13, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -271,20 +201,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (14, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (15, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (15, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -293,13 +209,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (15, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (16, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -341,13 +250,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (18, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (18, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -356,13 +258,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (18, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (19, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -390,13 +285,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (21, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (21, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -418,13 +306,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (22, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (22, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -440,20 +321,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (23, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (23, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (24, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -509,13 +376,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (27, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (28, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -551,13 +411,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (29, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (30, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -579,13 +432,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (31, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (31, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -601,13 +447,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (32, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (32, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -684,20 +523,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (36, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (37, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (37, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -713,13 +538,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (38, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (38, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -754,13 +572,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (40, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (41, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -775,21 +586,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (41, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (41, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (42, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -804,13 +601,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (42, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (43, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -832,13 +622,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (44, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (44, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -873,13 +656,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (46, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (46, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -895,13 +671,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (47, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (48, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -985,21 +754,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (51, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (52, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (52, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1034,21 +789,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (53, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (54, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (54, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1076,13 +817,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (56, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (56, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1091,13 +825,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (56, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (57, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1119,13 +846,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (58, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (58, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1202,13 +922,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (62, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (62, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1230,13 +943,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (63, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (63, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1244,21 +950,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (64, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (64, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (65, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1286,21 +978,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (66, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (67, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (67, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1335,13 +1013,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (68, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (69, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1356,13 +1027,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (69, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (70, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1370,21 +1034,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (70, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (70, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (71, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1412,21 +1062,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (72, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (72, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (73, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1475,13 +1111,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (75, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (75, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1503,13 +1132,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (76, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (76, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1518,13 +1140,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (77, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (77, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1559,13 +1174,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (78, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (79, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1588,13 +1196,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (80, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (80, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1643,13 +1244,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (82, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (83, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1685,13 +1279,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (84, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (85, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1706,13 +1293,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (85, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (85, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1721,13 +1301,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (86, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (86, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1769,13 +1342,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (88, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (89, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1791,13 +1357,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (90, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (90, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1839,13 +1398,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (92, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (93, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1860,28 +1412,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (93, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (94, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (94, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (95, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -1930,13 +1461,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (97, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (98, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -1979,20 +1503,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (100, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (101, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (101, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2015,13 +1525,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (102, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (102, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2070,13 +1573,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (105, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (106, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2084,21 +1580,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (106, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (106, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (107, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2134,13 +1616,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (108, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (108, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2189,13 +1664,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (111, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (111, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2210,21 +1678,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (112, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (113, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (113, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2245,13 +1699,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (114, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (114, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2260,13 +1707,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (115, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (115, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2301,13 +1741,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (117, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (117, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2323,13 +1756,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (117, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (118, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2358,20 +1784,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (119, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (119, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (120, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2434,13 +1846,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (124, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (124, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2463,13 +1868,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (125, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (126, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2511,13 +1909,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (128, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (128, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2532,21 +1923,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (129, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (129, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (130, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2561,13 +1938,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (130, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (131, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2616,13 +1986,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (133, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (134, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2637,21 +2000,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (135, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (135, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (136, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2679,13 +2028,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (137, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (138, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2701,13 +2043,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (138, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (138, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2742,13 +2077,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (140, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (140, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2757,13 +2085,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (141, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (141, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2784,13 +2105,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (142, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (142, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2799,13 +2113,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (143, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (143, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2834,20 +2141,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (145, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (145, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (146, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2917,21 +2210,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (149, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (150, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (150, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -2952,13 +2231,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (151, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (151, 'BANE', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -2967,13 +2239,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (151, 'CHEP', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (152, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3001,13 +2266,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (153, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (154, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -3023,13 +2281,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (154, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (155, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3092,13 +2343,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (158, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (158, 'ALPA', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -3114,13 +2358,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (159, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (159, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3176,13 +2413,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (162, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (162, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -3211,13 +2441,6 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (163, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (164, 'CHEP', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
@@ -3226,13 +2449,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (164, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (164, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3254,13 +2470,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (166, 'BANE', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (166, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3337,21 +2546,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (170, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (170, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (171, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3373,13 +2568,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (172, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (172, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3428,21 +2616,7 @@ INSERT INTO OrderSuppliers(
   InvoiceUploadStatusID
 ) 
 VALUES 
-  (174, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
   (175, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (175, 'OMEG', 1, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 
@@ -3464,20 +2638,6 @@ INSERT INTO OrderSuppliers(
 ) 
 VALUES 
   (176, 'ALPA', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (176, 'OMEG', 1, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSuppliers(
-  OrderID, SupplierID, DeliveryStatusID, 
-  InvoiceUploadStatusID
-) 
-VALUES 
-  (177, 'OMEG', 2, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSuppliers(
   OrderID, SupplierID, DeliveryStatusID, 

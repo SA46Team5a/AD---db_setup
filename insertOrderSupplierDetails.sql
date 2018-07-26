@@ -5,3490 +5,2650 @@ INSERT INTO OrderSupplierDetails(
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (1, 'E002', 7, 1.5, 7);
+  (1, 'C004', 22, 10.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (2, 'C005', 5, 11, 5);
+  (2, 'C005', 25, 11, 23);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (2, 'T021', 5, 24, 2);
+  (3, 'C003', 22, 5.5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (2, 'T020', 15, 20.5, 12);
+  (4, 'C005', 20, 11, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (3, 'T021', 3, 24, 2);
+  (5, 'C004', 15, 10.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (3, 'E002', 9, 3, 7);
+  (6, 'C004', 18, 11, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (3, 'T021', 16, 21.75, 13);
+  (7, 'C003', 5, 5.5, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (4, 'T002', 13, 12, 10);
+  (8, 'C005', 15, 11, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (4, 'T020', 1, 22, 1);
+  (9, 'C002', 11, 5, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (5, 'T020', 2, 22, 1);
+  (10, 'C003', 24, 5.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (5, 'T003', 14, 10, 11);
+  (11, 'C003', 14, 5.5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (5, 'E001', 9, 2, 6);
+  (12, 'C004', 16, 11, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (6, 'T022', 6, 25, 3);
+  (13, 'C003', 17, 7, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (6, 'T021', 13, 22.5, 13);
+  (14, 'C004', 9, 13, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (6, 'E001', 7, 1, 6);
+  (15, 'C004', 18, 10.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (7, 'E003', 10, 2, 8);
+  (16, 'C005', 17, 10, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (7, 'T001', 11, 13, 9);
+  (17, 'C005', 18, 9.5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (7, 'T003', 11, 12, 11);
+  (18, 'C004', 8, 13, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (8, 'E003', 11, 4, 8);
+  (19, 'C003', 8, 6, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (8, 'C001', 2, 3.5, 1);
+  (20, 'C004', 5, 13, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (8, 'T022', 15, 23.75, 14);
+  (21, 'C002', 6, 6, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (9, 'C001', 2, 3.5, 1);
+  (22, 'C005', 22, 9.5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (9, 'T022', 3, 25, 3);
+  (23, 'C001', 6, 4, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (9, 'C002', 5, 6, 2);
+  (24, 'C003', 18, 7, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (10, 'C005', 7, 10, 5);
+  (25, 'C001', 12, 3.5, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (10, 'T022', 4, 25, 3);
+  (26, 'C005', 20, 10, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (10, 'C005', 5, 11, 5);
+  (27, 'C002', 25, 5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (11, 'C003', 4, 7, 3);
+  (28, 'C003', 25, 7, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (11, 'T001', 9, 12.5, 9);
+  (29, 'C004', 11, 11, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (11, 'T020', 3, 22, 1);
+  (30, 'C002', 21, 4.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (12, 'T001', 10, 13, 9);
+  (31, 'C004', 24, 11, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (12, 'T020', 4, 22, 1);
+  (32, 'C002', 9, 4.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (12, 'C003', 5, 7, 3);
+  (33, 'C001', 22, 5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (13, 'T020', 1, 22, 1);
+  (34, 'C002', 16, 4.5, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (13, 'T003', 13, 10, 11);
+  (35, 'C003', 16, 6, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (13, 'T002', 11, 12, 10);
+  (36, 'C003', 11, 7, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (14, 'T001', 11, 13, 9);
+  (37, 'C005', 14, 9.5, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (14, 'C005', 7, 11, 5);
+  (38, 'C005', 7, 11, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (14, 'T021', 4, 24, 2);
+  (39, 'C002', 25, 6, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (15, 'T020', 3, 22, 1);
+  (40, 'C001', 17, 3.5, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (15, 'T003', 11, 11, 11);
+  (41, 'C003', 20, 5.5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (15, 'T001', 12, 12.5, 9);
+  (42, 'C001', 16, 5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (16, 'T020', 2, 22, 1);
+  (43, 'C001', 5, 4, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (16, 'T002', 10, 12, 10);
+  (44, 'C005', 6, 9.5, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (16, 'C001', 4, 3.5, 1);
+  (45, 'C003', 13, 7, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (17, 'C004', 6, 13, 4);
+  (46, 'C002', 8, 4.5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (17, 'T003', 11, 10, 11);
+  (47, 'C005', 11, 10, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (17, 'T001', 11, 13, 9);
+  (48, 'C002', 22, 6, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (18, 'T022', 3, 25, 3);
+  (49, 'C005', 15, 10, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (18, 'C005', 6, 11, 5);
+  (50, 'C005', 16, 11, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (18, 'T021', 16, 21.75, 13);
+  (51, 'C005', 11, 9.5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (19, 'T022', 6, 25, 3);
+  (52, 'C001', 6, 3.5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (19, 'C003', 3, 7, 3);
+  (53, 'C001', 6, 5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (20, 'C004', 5, 13, 4);
+  (54, 'C001', 17, 5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (20, 'T003', 13, 10, 11);
+  (55, 'C004', 25, 11, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (21, 'T020', 4, 22, 1);
+  (56, 'C005', 22, 9.5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (21, 'T002', 12, 11.5, 10);
+  (57, 'C001', 15, 4, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (21, 'C004', 6, 13, 4);
+  (58, 'C003', 13, 5.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (22, 'C003', 5, 6, 3);
+  (59, 'C005', 12, 10, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (22, 'T022', 5, 25, 3);
+  (60, 'C003', 13, 7, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (22, 'T001', 10, 12.5, 9);
+  (61, 'C001', 13, 3.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (23, 'T001', 10, 13.5, 9);
+  (62, 'C001', 5, 5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (23, 'T001', 12, 12.5, 9);
+  (63, 'C002', 21, 6, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (23, 'T021', 2, 24, 2);
+  (64, 'C003', 7, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (24, 'T021', 4, 24, 2);
+  (65, 'C005', 13, 10, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (24, 'T021', 13, 22.5, 13);
+  (66, 'C005', 15, 11, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (25, 'C002', 3, 6, 2);
+  (67, 'C003', 24, 5.5, 23);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (25, 'E002', 7, 2.25, 7);
+  (68, 'C002', 22, 6, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (26, 'C003', 3, 7, 3);
+  (69, 'C002', 9, 4.5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (26, 'T002', 11, 11.5, 10);
+  (70, 'C005', 8, 10, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (27, 'E003', 8, 2, 8);
+  (71, 'C005', 8, 9.5, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (27, 'T001', 11, 13.5, 9);
+  (72, 'C002', 7, 6, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (27, 'T021', 2, 24, 2);
+  (73, 'C005', 17, 10, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (28, 'T002', 13, 12.5, 10);
+  (74, 'C004', 13, 11, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (28, 'E003', 8, 3, 8);
+  (75, 'C002', 8, 5, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (28, 'C002', 2, 4.5, 2);
+  (76, 'C002', 23, 6, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (29, 'E002', 7, 2.25, 7);
+  (77, 'C004', 21, 13, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (29, 'E003', 9, 2, 8);
+  (78, 'C005', 20, 10, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (29, 'T021', 2, 24, 2);
+  (79, 'C003', 11, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (30, 'T022', 15, 23.75, 14);
+  (80, 'C001', 12, 4, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (30, 'C001', 1, 5, 1);
+  (81, 'C001', 5, 5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (31, 'E003', 10, 2, 8);
+  (82, 'C003', 8, 7, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (31, 'T021', 5, 24, 2);
+  (83, 'C004', 16, 11, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (31, 'C004', 7, 13, 4);
+  (84, 'C002', 10, 4.5, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (32, 'E002', 9, 3, 7);
+  (85, 'C005', 17, 11, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (32, 'T001', 12, 13, 9);
+  (86, 'C001', 18, 3.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (32, 'T020', 1, 22, 1);
+  (87, 'C005', 18, 9.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (33, 'E003', 11, 3, 8);
+  (88, 'C003', 17, 6, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (33, 'T003', 12, 12, 11);
+  (89, 'C003', 10, 7, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (33, 'E002', 9, 1.5, 7);
+  (90, 'C004', 24, 11, 24);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (34, 'T003', 12, 12, 11);
+  (91, 'C004', 16, 13, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (34, 'E001', 6, 1, 6);
+  (92, 'C005', 22, 9.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (34, 'C005', 6, 10, 5);
+  (93, 'C005', 6, 11, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (35, 'T022', 14, 22.25, 14);
+  (94, 'C004', 15, 11, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (35, 'C005', 5, 11, 5);
+  (95, 'C001', 12, 4, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (35, 'T021', 13, 22.5, 13);
+  (96, 'C004', 14, 13, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (36, 'C001', 3, 4, 1);
+  (97, 'C002', 21, 6, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (36, 'T021', 4, 24, 2);
+  (98, 'C004', 12, 11, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (37, 'T022', 3, 25, 3);
+  (99, 'C003', 24, 5.5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (37, 'T022', 15, 23.75, 14);
+  (100, 'C003', 20, 7, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (37, 'T002', 10, 12.5, 10);
+  (101, 'C002', 5, 4.5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (38, 'C001', 4, 5, 1);
+  (102, 'C005', 15, 10, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (38, 'T022', 3, 25, 3);
+  (103, 'C004', 11, 13, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (38, 'C001', 2, 4, 1);
+  (104, 'C001', 20, 3.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (39, 'C002', 3, 5, 2);
+  (105, 'C002', 16, 5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (40, 'T021', 16, 22.5, 13);
+  (106, 'C001', 14, 5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (40, 'C002', 4, 6, 2);
+  (107, 'C002', 10, 4.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (40, 'T021', 2, 24, 2);
+  (108, 'C001', 5, 4, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (41, 'E001', 9, 2, 6);
+  (109, 'C004', 16, 10.5, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (41, 'C005', 7, 10, 5);
+  (110, 'C003', 14, 7, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (41, 'T020', 1, 22, 1);
+  (111, 'C005', 12, 10, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (41, 'C002', 3, 4.5, 2);
+  (112, 'C003', 12, 5.5, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (42, 'T022', 6, 25, 3);
+  (113, 'C001', 12, 3.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (42, 'C004', 6, 13, 4);
+  (114, 'C002', 24, 6, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (42, 'C001', 1, 3.5, 1);
+  (115, 'C002', 23, 6, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (43, 'T021', 4, 24, 2);
+  (116, 'C003', 10, 5.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (43, 'C003', 3, 5.5, 3);
+  (117, 'C001', 17, 3.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (44, 'C003', 5, 6, 3);
+  (118, 'C004', 22, 13, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (44, 'C005', 8, 11, 5);
+  (119, 'C002', 15, 4.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (44, 'T022', 4, 25, 3);
+  (120, 'C003', 16, 7, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (45, 'E001', 6, 1.75, 6);
+  (121, 'C002', 7, 6, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (45, 'C001', 1, 5, 1);
+  (122, 'C002', 20, 5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (45, 'C003', 6, 5.5, 3);
+  (123, 'C001', 13, 3.5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (46, 'E001', 8, 2, 6);
+  (124, 'C003', 24, 5.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (46, 'T022', 5, 25, 3);
+  (125, 'C004', 23, 13, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (46, 'T020', 13, 21, 12);
+  (126, 'C001', 18, 5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (47, 'T021', 14, 22.5, 13);
+  (127, 'C002', 8, 4.5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (47, 'T001', 10, 13.5, 9);
+  (128, 'C005', 19, 10, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (48, 'T020', 1, 22, 1);
+  (129, 'C002', 16, 6, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (48, 'E003', 10, 4, 8);
+  (130, 'C003', 10, 5.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (48, 'C003', 5, 6, 3);
+  (131, 'C002', 12, 5, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (48, 'E002', 9, 1.5, 7);
+  (132, 'C005', 24, 10, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (49, 'E001', 6, 2, 6);
+  (133, 'C005', 22, 11, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (49, 'T001', 11, 12.5, 9);
+  (134, 'C005', 19, 10, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (49, 'C004', 4, 11, 4);
+  (135, 'C004', 6, 10.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (50, 'C001', 2, 5, 1);
+  (136, 'C003', 11, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (50, 'C005', 5, 9.5, 5);
+  (137, 'C002', 21, 5, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (50, 'T001', 12, 13, 9);
+  (138, 'C002', 18, 6, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (51, 'E002', 9, 3, 7);
+  (139, 'C005', 22, 10, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (51, 'E002', 9, 1.5, 7);
+  (140, 'C004', 10, 10.5, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (51, 'T020', 1, 22, 1);
+  (141, 'C003', 13, 6, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (52, 'T001', 12, 13, 9);
+  (142, 'C002', 8, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (52, 'T022', 4, 25, 3);
+  (143, 'C003', 6, 5.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (52, 'T003', 13, 10, 11);
+  (144, 'C001', 20, 4, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (53, 'C002', 5, 6, 2);
+  (145, 'C004', 7, 11, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (53, 'E001', 9, 1.75, 6);
+  (146, 'C004', 22, 10.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (53, 'C002', 4, 4.5, 2);
+  (147, 'C001', 8, 5, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (53, 'T020', 4, 22, 1);
+  (148, 'C003', 17, 5.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (54, 'E002', 8, 1.5, 7);
+  (149, 'C005', 11, 9.5, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (54, 'T022', 3, 25, 3);
+  (150, 'C001', 14, 5, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (54, 'C005', 5, 11, 5);
+  (151, 'C004', 23, 11, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (55, 'T003', 12, 12, 11);
+  (152, 'C004', 5, 10.5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (55, 'T001', 12, 12.5, 9);
+  (153, 'C001', 21, 4, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (56, 'T021', 5, 24, 2);
+  (154, 'C005', 23, 11, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (56, 'C005', 5, 9.5, 5);
+  (155, 'C005', 24, 11, 24);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (56, 'T002', 10, 12.5, 10);
+  (156, 'C003', 21, 5.5, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (57, 'T022', 3, 25, 3);
+  (157, 'C004', 11, 11, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (57, 'T002', 10, 11.5, 10);
+  (158, 'C004', 8, 11, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (57, 'T002', 12, 12.5, 10);
+  (159, 'C005', 15, 9.5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (58, 'C001', 4, 5, 1);
+  (160, 'C002', 25, 6, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (58, 'T021', 4, 24, 2);
+  (161, 'C001', 10, 4, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (58, 'T020', 14, 21, 12);
+  (162, 'C002', 12, 4.5, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (58, 'C005', 7, 9.5, 5);
+  (163, 'C003', 14, 7, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (59, 'C005', 6, 9.5, 5);
+  (164, 'C004', 13, 10.5, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (59, 'T002', 10, 12.5, 10);
+  (165, 'C001', 13, 3.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (60, 'E002', 9, 3, 7);
+  (166, 'C002', 18, 5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (60, 'C003', 6, 5.5, 3);
+  (167, 'C004', 24, 13, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (60, 'C001', 1, 4, 1);
+  (168, 'C003', 15, 5.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (61, 'C001', 4, 5, 1);
+  (169, 'C005', 25, 10, 24);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (61, 'T002', 13, 11.5, 10);
+  (170, 'C002', 24, 6, 24);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (61, 'C005', 8, 10, 5);
+  (171, 'C004', 7, 11, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (62, 'T021', 5, 24, 2);
+  (172, 'C001', 9, 5, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (62, 'T020', 13, 21, 12);
+  (173, 'C001', 5, 3.5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (62, 'C005', 8, 11, 5);
+  (174, 'C005', 22, 11, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (63, 'T002', 11, 12, 10);
+  (175, 'C001', 8, 3.5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (63, 'T021', 2, 24, 2);
+  (176, 'C003', 5, 5.5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (63, 'E001', 8, 1, 6);
+  (177, 'C002', 17, 6, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (64, 'T020', 4, 22, 1);
+  (178, 'C004', 21, 11, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (64, 'T002', 10, 12, 10);
+  (179, 'C002', 9, 6, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (65, 'T020', 1, 22, 1);
+  (180, 'C002', 18, 4.5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (65, 'T020', 13, 21, 12);
+  (181, 'C002', 13, 6, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (66, 'C003', 5, 7, 3);
+  (182, 'C003', 16, 5.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (66, 'T021', 16, 22.5, 13);
+  (183, 'C005', 13, 11, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (66, 'T020', 3, 22, 1);
+  (184, 'C003', 21, 5.5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (67, 'C003', 3, 5.5, 3);
+  (185, 'C002', 12, 5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (67, 'T020', 4, 22, 1);
+  (186, 'C002', 11, 6, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (67, 'E002', 10, 2.25, 7);
+  (187, 'C005', 11, 10, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (67, 'E001', 8, 2, 6);
+  (188, 'C003', 9, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (68, 'C002', 5, 4.5, 2);
+  (189, 'C002', 7, 6, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (68, 'C002', 3, 5, 2);
+  (190, 'C001', 13, 3.5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (68, 'T020', 3, 22, 1);
+  (191, 'C004', 14, 11, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (69, 'T020', 14, 21, 12);
+  (192, 'C002', 12, 5, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (69, 'C003', 5, 5.5, 3);
+  (193, 'C004', 10, 13, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (69, 'T022', 3, 25, 3);
+  (194, 'C005', 22, 9.5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (70, 'C005', 5, 11, 5);
+  (195, 'C003', 16, 6, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (70, 'T022', 6, 25, 3);
+  (196, 'C001', 19, 5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (70, 'T002', 11, 11.5, 10);
+  (197, 'C005', 21, 9.5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (71, 'T020', 2, 22, 1);
+  (198, 'C004', 14, 13, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (71, 'C001', 1, 3.5, 1);
+  (199, 'C005', 9, 9.5, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (71, 'C002', 4, 6, 2);
+  (200, 'C003', 9, 7, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (72, 'T021', 14, 22.5, 13);
+  (201, 'C003', 7, 5.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (72, 'T020', 4, 22, 1);
+  (202, 'C003', 7, 5.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (72, 'T020', 12, 20.5, 12);
+  (203, 'C002', 11, 4.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (73, 'T020', 1, 22, 1);
+  (204, 'C004', 17, 10.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (73, 'C001', 1, 4, 1);
+  (205, 'C002', 7, 5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (73, 'E001', 8, 2, 6);
+  (206, 'C002', 6, 5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (74, 'C004', 4, 13, 4);
+  (207, 'C004', 20, 13, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (74, 'C004', 6, 10.5, 4);
+  (208, 'C003', 12, 5.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (74, 'C001', 3, 4, 1);
+  (209, 'C005', 7, 10, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (75, 'C005', 5, 10, 5);
+  (210, 'C003', 9, 7, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (75, 'T021', 3, 24, 2);
+  (211, 'C005', 18, 10, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (75, 'E003', 8, 2, 8);
+  (212, 'C002', 23, 4.5, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (76, 'T001', 11, 13.5, 9);
+  (213, 'C001', 5, 5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (76, 'C001', 3, 4, 1);
+  (214, 'C001', 11, 5, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (76, 'T021', 3, 24, 2);
+  (215, 'C005', 12, 11, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (76, 'E001', 6, 1, 6);
+  (216, 'C002', 10, 5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (77, 'C001', 1, 5, 1);
+  (217, 'C003', 20, 7, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (77, 'T022', 3, 25, 3);
+  (218, 'C002', 5, 5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (77, 'E003', 11, 2, 8);
+  (219, 'C001', 16, 5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (78, 'E002', 8, 1.5, 7);
+  (220, 'C004', 13, 11, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (78, 'T002', 13, 12, 10);
+  (221, 'C004', 14, 10.5, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (78, 'C004', 4, 13, 4);
+  (222, 'C001', 25, 3.5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (78, 'T021', 5, 24, 2);
+  (223, 'C003', 7, 7, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (79, 'T020', 15, 20.5, 12);
+  (224, 'C004', 13, 13, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (79, 'T001', 9, 13, 9);
+  (225, 'C003', 7, 6, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (79, 'C004', 6, 13, 4);
+  (226, 'C004', 12, 10.5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (80, 'E001', 6, 1.75, 6);
+  (227, 'C003', 16, 5.5, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (80, 'T022', 3, 25, 3);
+  (228, 'C002', 5, 5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (80, 'C003', 5, 7, 3);
+  (229, 'C002', 20, 6, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (80, 'E003', 9, 2, 8);
+  (230, 'C001', 23, 3.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (81, 'C003', 6, 7, 3);
+  (231, 'C002', 8, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (81, 'T003', 11, 10, 11);
+  (232, 'C005', 23, 11, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (82, 'T020', 15, 20.5, 12);
+  (233, 'C003', 25, 5.5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (82, 'T001', 9, 13.5, 9);
+  (234, 'C004', 15, 11, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (82, 'T022', 3, 25, 3);
+  (235, 'C001', 19, 5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (83, 'T020', 15, 21, 12);
+  (236, 'C003', 14, 6, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (83, 'C003', 3, 7, 3);
+  (237, 'C004', 24, 13, 24);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (83, 'T001', 10, 12.5, 9);
+  (238, 'C002', 19, 4.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (84, 'C003', 4, 7, 3);
+  (239, 'C005', 13, 11, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (84, 'T002', 12, 11.5, 10);
+  (240, 'C003', 10, 7, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (84, 'T022', 4, 25, 3);
+  (241, 'C003', 15, 5.5, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (85, 'E003', 10, 4, 8);
+  (242, 'C005', 8, 10, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (85, 'E003', 9, 2, 8);
+  (243, 'C004', 12, 13, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (85, 'T020', 4, 22, 1);
+  (244, 'C001', 14, 5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (85, 'C003', 5, 6, 3);
+  (245, 'C004', 19, 10.5, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (86, 'T002', 13, 12.5, 10);
+  (246, 'C005', 23, 9.5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (86, 'T021', 5, 24, 2);
+  (247, 'C004', 9, 13, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (86, 'T020', 15, 21, 12);
+  (248, 'C002', 19, 5, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (87, 'T021', 13, 22.5, 13);
+  (249, 'C003', 11, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (87, 'E003', 10, 4, 8);
+  (250, 'C002', 25, 4.5, 25);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (87, 'C005', 8, 9.5, 5);
+  (251, 'C004', 19, 13, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (88, 'C004', 7, 11, 4);
+  (252, 'C002', 25, 4.5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (88, 'T020', 4, 22, 1);
+  (253, 'C003', 23, 7, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (89, 'E001', 9, 1.75, 6);
+  (254, 'C001', 6, 4, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (89, 'E001', 8, 2, 6);
+  (255, 'C004', 22, 10.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (90, 'C005', 7, 9.5, 5);
+  (256, 'C003', 13, 7, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (90, 'T021', 2, 24, 2);
+  (257, 'C004', 18, 11, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (90, 'T020', 14, 21, 12);
+  (258, 'C003', 22, 6, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (91, 'E001', 8, 2, 6);
+  (259, 'C001', 10, 3.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (91, 'T003', 13, 10, 11);
+  (260, 'C005', 18, 10, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (92, 'C002', 3, 6, 2);
+  (261, 'C004', 12, 13, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (92, 'C005', 6, 9.5, 5);
+  (262, 'C005', 21, 9.5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (92, 'T020', 2, 22, 1);
+  (263, 'C005', 16, 10, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (93, 'C001', 3, 5, 1);
+  (264, 'C004', 22, 10.5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (93, 'C001', 3, 3.5, 1);
+  (265, 'C004', 15, 11, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (93, 'T020', 4, 22, 1);
+  (266, 'C004', 17, 10.5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (94, 'T002', 10, 11.5, 10);
+  (267, 'C002', 19, 5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (94, 'T021', 4, 24, 2);
+  (268, 'C002', 19, 5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (95, 'T021', 4, 24, 2);
+  (269, 'C003', 12, 5.5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (95, 'T021', 14, 21.75, 13);
+  (270, 'C001', 8, 5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (96, 'T002', 11, 11.5, 10);
+  (271, 'C003', 5, 6, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (96, 'C004', 5, 11, 4);
+  (272, 'C003', 21, 5.5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (97, 'C002', 4, 5, 2);
+  (273, 'C002', 5, 6, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (97, 'C001', 3, 5, 1);
+  (274, 'C003', 19, 6, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (97, 'T021', 14, 21.75, 13);
+  (275, 'C001', 19, 5, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (97, 'T021', 3, 24, 2);
+  (276, 'C004', 22, 11, 17);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (98, 'T002', 11, 12, 10);
+  (277, 'C003', 19, 5.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (98, 'C002', 4, 6, 2);
+  (278, 'C001', 15, 4, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (99, 'E003', 11, 3, 8);
+  (279, 'C001', 12, 3.5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (99, 'T003', 14, 10, 11);
+  (280, 'C003', 24, 5.5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (99, 'C002', 2, 6, 2);
+  (281, 'C001', 19, 5, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (100, 'E002', 7, 3, 7);
+  (282, 'C004', 12, 10.5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (100, 'T022', 5, 25, 3);
+  (283, 'C001', 17, 5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (101, 'T020', 1, 22, 1);
+  (284, 'C001', 7, 4, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (101, 'C004', 5, 13, 4);
+  (285, 'C004', 13, 13, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (101, 'C004', 5, 11, 4);
+  (286, 'C003', 23, 5.5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (102, 'E003', 8, 4, 8);
+  (287, 'C001', 7, 5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (102, 'T020', 12, 21, 12);
+  (288, 'C003', 8, 6, 7);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (102, 'T022', 4, 25, 3);
+  (289, 'C004', 21, 10.5, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (103, 'E003', 10, 4, 8);
+  (290, 'C004', 10, 11, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (103, 'T020', 15, 21, 12);
+  (291, 'C005', 15, 9.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (103, 'T021', 13, 21.75, 13);
+  (292, 'C005', 14, 11, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (104, 'C002', 5, 4.5, 2);
+  (293, 'C002', 23, 5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (104, 'C005', 5, 11, 5);
+  (294, 'C001', 19, 3.5, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (105, 'C004', 6, 13, 4);
+  (295, 'C005', 14, 11, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (105, 'T022', 6, 25, 3);
+  (296, 'C001', 14, 4, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (106, 'E003', 8, 3, 8);
+  (297, 'C003', 19, 5.5, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (106, 'T022', 4, 25, 3);
+  (298, 'C004', 13, 11, 9);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (106, 'E003', 8, 2, 8);
+  (299, 'C001', 10, 5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (107, 'T021', 2, 24, 2);
+  (300, 'C005', 14, 9.5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (107, 'C001', 4, 3.5, 1);
+  (301, 'C005', 9, 11, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (107, 'C004', 6, 11, 4);
+  (302, 'C001', 6, 4, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (107, 'C003', 3, 7, 3);
+  (303, 'C001', 23, 4, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (108, 'E001', 9, 1, 6);
+  (304, 'C005', 17, 11, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (108, 'E003', 9, 4, 8);
+  (305, 'C004', 16, 13, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (108, 'T020', 3, 22, 1);
+  (306, 'C004', 24, 10.5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (109, 'T001', 12, 13.5, 9);
+  (307, 'C003', 25, 5.5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (109, 'T022', 14, 22.25, 14);
+  (308, 'C001', 25, 5, 25);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (109, 'T021', 16, 22.5, 13);
+  (309, 'C001', 23, 3.5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (110, 'C003', 6, 7, 3);
+  (310, 'C003', 18, 6, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (110, 'C004', 5, 11, 4);
+  (311, 'C001', 5, 5, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (111, 'C003', 3, 7, 3);
+  (312, 'C003', 24, 6, 24);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (111, 'T020', 2, 22, 1);
+  (313, 'C005', 17, 9.5, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (111, 'C004', 5, 10.5, 4);
+  (314, 'C005', 5, 9.5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (112, 'C001', 4, 5, 1);
+  (315, 'C003', 9, 6, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (112, 'T022', 3, 25, 3);
+  (316, 'C002', 6, 6, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (113, 'C004', 6, 13, 4);
+  (317, 'C003', 6, 6, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (113, 'T022', 6, 25, 3);
+  (318, 'C004', 15, 10.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (113, 'C002', 3, 4.5, 2);
+  (319, 'C004', 6, 13, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (114, 'C003', 5, 6, 3);
+  (320, 'C002', 6, 5, 2);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (114, 'T022', 4, 25, 3);
+  (321, 'C004', 25, 11, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (114, 'E002', 7, 3, 7);
+  (322, 'C002', 23, 4.5, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (115, 'C001', 2, 5, 1);
+  (323, 'C001', 24, 5, 23);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (115, 'T022', 6, 25, 3);
+  (324, 'C004', 20, 11, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (115, 'E002', 10, 1.5, 7);
+  (325, 'C005', 9, 9.5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (116, 'E003', 11, 2, 8);
+  (326, 'C004', 9, 13, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (116, 'E001', 7, 2, 6);
+  (327, 'C001', 17, 3.5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (116, 'T020', 12, 21, 12);
+  (328, 'C003', 6, 7, 1);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (117, 'T022', 6, 25, 3);
+  (329, 'C001', 18, 3.5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (117, 'T003', 12, 11, 11);
+  (330, 'C003', 6, 6, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (117, 'C003', 3, 5.5, 3);
+  (331, 'C002', 16, 6, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (117, 'C004', 6, 13, 4);
+  (332, 'C005', 18, 9.5, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (118, 'T022', 3, 25, 3);
+  (333, 'C005', 9, 10, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (118, 'T022', 15, 22.25, 14);
+  (334, 'C003', 21, 7, 19);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (118, 'C003', 4, 7, 3);
+  (335, 'C002', 23, 4.5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (119, 'T002', 11, 12, 10);
+  (336, 'C004', 19, 10.5, 18);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (119, 'E002', 9, 1.5, 7);
+  (337, 'C003', 17, 7, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (119, 'T021', 3, 24, 2);
+  (338, 'C001', 14, 4, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (120, 'T022', 5, 25, 3);
+  (339, 'C003', 9, 5.5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (120, 'C003', 4, 7, 3);
+  (340, 'C002', 5, 6, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (120, 'T003', 11, 11, 11);
+  (341, 'C002', 7, 5, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (121, 'E002', 8, 2.25, 7);
+  (342, 'C001', 21, 3.5, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (122, 'T002', 10, 11.5, 10);
+  (343, 'C001', 18, 4, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (122, 'E002', 9, 2.25, 7);
+  (344, 'C005', 21, 11, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (123, 'T003', 14, 12, 11);
+  (345, 'C003', 14, 6, 14);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (123, 'E001', 8, 1, 6);
+  (346, 'C001', 5, 4, 0);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (123, 'T020', 13, 21, 12);
+  (347, 'C001', 16, 5, 13);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (124, 'T021', 2, 24, 2);
+  (348, 'C002', 19, 4.5, 15);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (124, 'C002', 4, 4.5, 2);
+  (349, 'C004', 24, 11, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (124, 'C004', 6, 11, 4);
+  (350, 'C004', 16, 10.5, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (125, 'C005', 5, 9.5, 5);
+  (351, 'C004', 17, 13, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (125, 'T020', 12, 21, 12);
+  (352, 'C001', 25, 4, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (126, 'T022', 6, 25, 3);
+  (353, 'C002', 21, 6, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (126, 'C002', 4, 5, 2);
+  (354, 'C004', 12, 10.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (126, 'T002', 11, 11.5, 10);
+  (355, 'C001', 24, 5, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (127, 'T003', 11, 12, 11);
+  (356, 'C005', 24, 10, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (127, 'E001', 9, 1.75, 6);
+  (357, 'C002', 22, 4.5, 22);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (127, 'C001', 2, 3.5, 1);
+  (358, 'C003', 23, 7, 23);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (128, 'T022', 5, 25, 3);
+  (359, 'C002', 10, 4.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (128, 'C002', 5, 6, 2);
+  (360, 'C004', 8, 11, 3);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (129, 'C004', 4, 11, 4);
+  (361, 'C005', 5, 9.5, 4);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (129, 'T022', 6, 25, 3);
+  (362, 'C002', 11, 6, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (129, 'E002', 8, 3, 7);
+  (363, 'C004', 8, 11, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (130, 'T021', 2, 24, 2);
+  (364, 'C002', 12, 4.5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (130, 'T002', 11, 12, 10);
+  (365, 'C003', 9, 5.5, 6);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (130, 'C004', 4, 10.5, 4);
+  (366, 'C003', 22, 7, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (131, 'T021', 2, 24, 2);
+  (367, 'C003', 10, 5.5, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (131, 'E003', 11, 3, 8);
+  (368, 'C002', 8, 6, 8);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (131, 'C005', 5, 9.5, 5);
+  (369, 'C005', 16, 10, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (132, 'C005', 7, 9.5, 5);
+  (370, 'C001', 20, 5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (132, 'C001', 4, 5, 1);
+  (371, 'C005', 10, 9.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (133, 'T003', 12, 10, 11);
+  (372, 'C005', 19, 9.5, 16);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (133, 'C005', 6, 11, 5);
+  (373, 'C002', 17, 5, 12);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (133, 'T022', 3, 25, 3);
+  (374, 'C005', 15, 9.5, 10);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (134, 'C003', 5, 6, 3);
+  (375, 'C002', 25, 5, 20);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (134, 'E002', 7, 3, 7);
+  (376, 'C004', 16, 13, 11);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (135, 'T020', 2, 22, 1);
+  (377, 'C005', 8, 9.5, 5);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (135, 'C001', 3, 3.5, 1);
+  (378, 'C002', 24, 6, 21);
 /* INSERT QUERY */
 INSERT INTO OrderSupplierDetails(
   OrderSupplierID, ItemID, Quantity, 
   UnitCost, ActualQuantityReceived
 ) 
 VALUES 
-  (136, 'T022', 4, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (136, 'C003', 3, 7, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (137, 'E003', 9, 3, 8);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (137, 'T022', 15, 22.25, 14);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (137, 'T020', 2, 22, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (138, 'C003', 5, 6, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (138, 'T003', 12, 10, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (138, 'T002', 12, 12.5, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (138, 'T020', 2, 22, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (139, 'C003', 5, 6, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (139, 'T022', 16, 22.25, 14);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (139, 'T001', 12, 13.5, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (140, 'C003', 5, 6, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (140, 'T021', 4, 24, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (140, 'C003', 3, 5.5, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (141, 'T003', 11, 11, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (141, 'T022', 3, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (141, 'E002', 10, 3, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (142, 'T020', 13, 20.5, 12);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (142, 'T020', 1, 22, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (142, 'C001', 4, 5, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (143, 'T022', 16, 23.75, 14);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (143, 'T022', 4, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (144, 'E002', 7, 2.25, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (144, 'C003', 3, 7, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (145, 'E003', 10, 4, 8);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (145, 'C003', 6, 5.5, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (145, 'T022', 5, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (146, 'T022', 4, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (146, 'C001', 2, 3.5, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (146, 'T002', 11, 12.5, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (147, 'T020', 13, 20.5, 12);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (147, 'E002', 10, 2.25, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (148, 'C001', 4, 5, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (148, 'E001', 9, 1.75, 6);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (148, 'T003', 14, 10, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (149, 'E002', 10, 1.5, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (149, 'C001', 2, 4, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (149, 'T021', 5, 24, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (150, 'E002', 8, 3, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (150, 'T022', 3, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (150, 'C001', 1, 4, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (150, 'C001', 3, 3.5, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (151, 'T020', 1, 22, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (151, 'C002', 3, 6, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (151, 'C004', 5, 11, 4);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (152, 'T022', 5, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (152, 'T003', 11, 11, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (153, 'T021', 14, 21.75, 13);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (153, 'E002', 9, 3, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (153, 'T022', 3, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (154, 'T022', 14, 23.75, 14);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (154, 'C001', 2, 3.5, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (154, 'T002', 11, 12.5, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (155, 'T021', 2, 24, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (155, 'T003', 14, 10, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (156, 'E003', 9, 4, 8);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (156, 'E002', 10, 1.5, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (157, 'T002', 10, 12, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (157, 'T002', 13, 12.5, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (157, 'T020', 15, 20.5, 12);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (158, 'C002', 4, 5, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (158, 'T003', 12, 12, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (158, 'T022', 6, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (158, 'T021', 16, 21.75, 13);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (159, 'E002', 10, 1.5, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (159, 'T001', 12, 13.5, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (159, 'T021', 5, 24, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (159, 'T003', 11, 11, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (160, 'T020', 13, 20.5, 12);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (160, 'E003', 11, 4, 8);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (160, 'E003', 9, 3, 8);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (161, 'C001', 1, 3.5, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (161, 'T001', 11, 13, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (161, 'C002', 5, 6, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (162, 'T022', 6, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (162, 'T021', 13, 22.5, 13);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (163, 'T020', 14, 21, 12);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (163, 'T001', 10, 13.5, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (163, 'T001', 9, 12.5, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (163, 'T021', 2, 24, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (164, 'T022', 16, 23.75, 14);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (164, 'T022', 15, 22.25, 14);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (164, 'T022', 6, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (165, 'C003', 4, 7, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (165, 'T020', 12, 21, 12);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (166, 'T001', 12, 13.5, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (166, 'T021', 5, 24, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (166, 'C004', 7, 10.5, 4);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (167, 'E001', 9, 2, 6);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (167, 'C005', 8, 10, 5);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (167, 'T021', 15, 21.75, 13);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (168, 'C004', 7, 13, 4);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (168, 'E001', 9, 1, 6);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (168, 'E003', 11, 3, 8);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (169, 'T003', 14, 10, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (169, 'C005', 5, 11, 5);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (169, 'T001', 11, 13, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (170, 'T020', 3, 22, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (170, 'T021', 13, 21.75, 13);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (171, 'T022', 3, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (171, 'T003', 13, 10, 11);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (171, 'E002', 7, 3, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (172, 'T002', 11, 11.5, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (172, 'T022', 5, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (172, 'E003', 9, 4, 8);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (173, 'T021', 14, 22.5, 13);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (173, 'T002', 11, 12.5, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (173, 'T002', 10, 11.5, 10);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (174, 'C001', 3, 3.5, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (174, 'C004', 6, 11, 4);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (174, 'T020', 3, 22, 1);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (175, 'C005', 7, 9.5, 5);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (175, 'T022', 3, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (175, 'E002', 7, 2.25, 7);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (176, 'T001', 10, 13.5, 9);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (176, 'C004', 4, 10.5, 4);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (176, 'T022', 5, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (177, 'T022', 6, 25, 3);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (177, 'C002', 3, 6, 2);
-/* INSERT QUERY */
-INSERT INTO OrderSupplierDetails(
-  OrderSupplierID, ItemID, Quantity, 
-  UnitCost, ActualQuantityReceived
-) 
-VALUES 
-  (177, 'T021', 15, 22.5, 13);
+  (379, 'C003', 16, 6, 12);

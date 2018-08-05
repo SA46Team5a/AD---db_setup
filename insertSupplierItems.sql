@@ -170,10 +170,6 @@ VALUES
 /* INSERT QUERY */
 INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
 VALUES 
-  ('OMEG', 'T100', 1, 25.5);
-/* INSERT QUERY */
-INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
-VALUES 
   ('OMEG', 'H011', 1, 24.75);
 /* INSERT QUERY */
 INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
@@ -260,4 +256,218 @@ INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost)
 VALUES 
   ('ISST', 'H032', 1, 4.75);
 /* INSERT QUERY */
-
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('ALPA', 'P010', 1, 22.61);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('ISST', 'P011', 1, 25.12);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BYBS', 'P012', 1, 2.59);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'P021', 1, 12.57);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'P030', 1, 8.28);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('OMEG', 'P031', 1, 3.52);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BANE', 'P032', 1, 20.22);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('PASH', 'R001', 1, 2.47);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BANE', 'R002', 1, 16.46);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BANE', 'S011', 1, 6.22);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('KAES', 'S012', 1, 19.19);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('OMEG', 'S021', 1, 14.31);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('OMEG', 'S022', 1, 20.63);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'S023', 1, 18.72);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BANE', 'S040', 1, 2.36);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('KAES', 'S041', 1, 9.85);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('PASH', 'S100', 1, 19.64);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('RRES', 'T100', 1, 2.08);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BYBS', 'P010', 2, 23.61);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('TWGI', 'P011', 2, 26.12);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('FCLW', 'P012', 2, 3.59);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BANE', 'P021', 2, 13.57);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('ISST', 'P030', 2, 9.28);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('ISST', 'P031', 2, 4.52);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('RRES', 'P032', 2, 21.22);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('OMEG', 'R001', 2, 3.47);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('TBCT', 'R002', 2, 17.46);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('OMEG', 'S011', 2, 7.22);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('RRES', 'S012', 2, 20.19);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'S021', 2, 15.31);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CHEP', 'S022', 2, 21.63);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('FCLW', 'S023', 2, 19.72);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('PASH', 'S040', 2, 3.36);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('MSCS', 'S041', 2, 10.85);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('KAES', 'S100', 2, 20.64);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'T100', 2, 3.08);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('PASH', 'P010', 3, 24.61);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('TWGI', 'P011', 3, 27.12);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('PASH', 'P012', 3, 4.59);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('RRES', 'P021', 3, 14.57);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('OMEG', 'P030', 3, 10.28);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'P031', 3, 5.52);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'P032', 3, 22.22);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'R001', 3, 4.47);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BYBS', 'R002', 3, 18.46);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('FCLW', 'S011', 3, 8.22);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BANE', 'S012', 3, 21.19);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CNIB', 'S021', 3, 16.31);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('KAES', 'S022', 3, 22.63);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CHEP', 'S023', 3, 20.72);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('TWGI', 'S040', 3, 4.36);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('CHEP', 'S041', 3, 11.85);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('KAES', 'S100', 3, 21.64);
+/* INSERT QUERY */
+INSERT INTO SupplierItems(SupplierID, ItemID, Rank, Cost) 
+VALUES 
+  ('BANE', 'T100', 3, 4.08);
